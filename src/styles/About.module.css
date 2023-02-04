@@ -82,3 +82,12 @@
 .cleanupname:hover {
     color: black;
 }
+
+@media (max-width: 600px) {
+    .indivcleanup {
+        max-width: 100%;
+    }
+    .cleanupscontainer {
+        flex-wrap: wrap;
+    }
+}

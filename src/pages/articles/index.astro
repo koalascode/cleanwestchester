@@ -6,8 +6,6 @@ import styles from '../../styles/ArticleHome.module.css'
 
 const articles = await getCollection('articles')
 
-console.log(articles)
-
 articles.sort((b,a) => new Date(a.data.date) - new Date(b.data.date))
 
 ---
@@ -25,7 +23,7 @@ articles.sort((b,a) => new Date(a.data.date) - new Date(b.data.date))
                         <div class={styles.text}>
                             <p>{x.data.date}</p>
                             <h1>{x.data.title}</h1>
-                            <p>{x.data.authors.map( y => y)}</p>
+                            <p>{x.data.authors.map( y => y )}</p>
                         </div>
                         </a>
                     </div>

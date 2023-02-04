@@ -7,7 +7,7 @@ const members = await getCollection('members');
 ---
 
 
-<Layout title=`${members.data.name} Profile`>
+<Layout title="Our Team">
     <div class={styles.container}>
         <div class={styles.people}>
             {members.sort((a,b) => a.data.position - b.data.position).map(x => 

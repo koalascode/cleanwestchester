@@ -31,3 +31,23 @@
 .text:hover {
     color: black;
 }
+
+
+@media (max-width: 700px) {
+    .articlescontainer {
+        grid-template-columns: 100%;
+    }
+
+    .indivarticle {
+        grid-template-columns: 100%;
+    }
+
+    .articleimg {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .text {
+        width: 80%;
+        text-align: center;
+    }
+}

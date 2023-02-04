@@ -63,6 +63,13 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"articles": {
+"deforestationincongo.md": {
+  id: "deforestationincongo.md",
+  slug: "deforestationincongo",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
 "favoritewildlifesites.md": {
   id: "favoritewildlifesites.md",
   slug: "ourfavoritewildlifespotsnearby",
@@ -72,7 +79,14 @@ declare module 'astro:content' {
 },
 "flawedrenewablerussiaukraine.md": {
   id: "flawedrenewablerussiaukraine.md",
-  slug: "ourfavoritewildlifespotsnearby",
+  slug: "flawedenergydependancerussiaukraine",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
+"geothermaleconomyicelandvid.md": {
+  id: "geothermaleconomyicelandvid.md",
+  slug: "icelandgeothermaleconomyvid",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">
@@ -80,6 +94,13 @@ declare module 'astro:content' {
 "ozonept1.md": {
   id: "ozonept1.md",
   slug: "ozonept1",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
+"physicsbehindlightningvid.md": {
+  id: "physicsbehindlightningvid.md",
+  slug: "physicsbehindlightningvid",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">

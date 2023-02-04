@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import styles from '../../styles/Article.module.css'
+import { getCollection } from 'astro:content';
 
 const { slug } = Astro.params;
 
@@ -22,14 +23,20 @@ export async function getStaticPaths() {
 
 const { Content, frontmatter } = Astro.props.post;
 
+const author = await getCollection('members', ({ data }) => {
+    return frontmatter.authors.includes(data.name)
+})
+
+author.sort()
+frontmatter.authors.sort()
 ---
 
 <Layout title={frontmatter?.title}>
     <div class={styles.container}>
         <div class={styles.maincontent}>
             <div class={styles.toparticle}>
-                <h1>{frontmatter.title}</h1>
-                <p>Authors: {frontmatter.authors.map(y => y + " ")} </p>
+                <h1><strong>{frontmatter.title}</strong></h1>
+                <p>{frontmatter.authors.length == 1 ? "Author" : "Authors"}: {frontmatter.authors.map((y, index) => index != frontmatter.authors.length - 1 ? <a className={styles.authorlink} href={`/team/${author[index].slug}`}>{y + ", "}</a> : <a className={styles.authorlink} href={`/team/${author[index].slug}`}>{y + " "}</a>)} </p>
                 <img src={frontmatter.coverimg} class={styles.coverimg}>
                 <p>{frontmatter.date}</p>
             </div>

@@ -28,7 +28,7 @@ const currMemberCleanUps = await getCollection('cleanups', ({ data }) => {
 
 ---
 
-<Layout title=`${currMember?.data?.name} Profile`>
+<Layout title={currMember.data.name + " | Clean Westchester"}>
   <div class={styles.container}>
     <div class={styles.user}>
       <img class={styles.pfpimg} src={currMember.data.pfp}/>
@@ -42,7 +42,7 @@ const currMemberCleanUps = await getCollection('cleanups', ({ data }) => {
       <h1 class={styles.secttitle}>Articles: </h1>
       <div class={styles.articlescontainer}>
         {currMemberArticles.map(x =>
-          <a href={`/articles/${x.slug}`}>
+          <a class="nolink" href={`/articles/${x.slug}`}>
             <div class={styles.article}>
               <img class={styles.articleimg} src={x.data.coverimg}/>
               <p>{x.data.date}</p>
