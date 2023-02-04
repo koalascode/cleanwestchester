@@ -42,13 +42,14 @@
     width: 80%;
     margin: 0 auto;
     overflow-x: scroll;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    flex-grow: 1;
     gap: 2rem;
 }
 
 .article {
     max-width: 100%;
+    min-width: 18rem;
     padding-bottom: .5rem;
     border-radius: 5px;
     text-align: center;

@@ -70,6 +70,13 @@ declare module 'astro:content' {
   collection: "articles",
   data: InferEntrySchema<"articles">
 },
+"environmentalissuesglobalscale.md": {
+  id: "environmentalissuesglobalscale.md",
+  slug: "environmentalissuesglobalscale",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
 "favoritewildlifesites.md": {
   id: "favoritewildlifesites.md",
   slug: "ourfavoritewildlifespotsnearby",
@@ -84,16 +91,16 @@ declare module 'astro:content' {
   collection: "articles",
   data: InferEntrySchema<"articles">
 },
-"geothermaleconomyicelandvid.md": {
-  id: "geothermaleconomyicelandvid.md",
-  slug: "icelandgeothermaleconomyvid",
+"mediaeffectonozonelayer.md": {
+  id: "mediaeffectonozonelayer.md",
+  slug: "mediaimpactonozonelayer",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">
 },
-"ozonept1.md": {
-  id: "ozonept1.md",
-  slug: "ozonept1",
+"ozonelayerstillunderthreat.md": {
+  id: "ozonelayerstillunderthreat.md",
+  slug: "ozonelayerstillunderthreat",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">
@@ -101,6 +108,13 @@ declare module 'astro:content' {
 "physicsbehindlightningvid.md": {
   id: "physicsbehindlightningvid.md",
   slug: "physicsbehindlightningvid",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
+"sciencebehindozonelayer.md": {
+  id: "sciencebehindozonelayer.md",
+  slug: "sciencebehindozonelayer",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">
