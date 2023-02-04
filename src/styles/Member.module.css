@@ -48,7 +48,7 @@
 }
 
 .article {
-    max-width: 100%;
+    max-width: 40%;
     min-width: 18rem;
     padding-bottom: .5rem;
     border-radius: 5px;
@@ -68,4 +68,11 @@
 
 .nolinknocol {
     color: inherit
+}
+
+
+@media (max-width: 550px) {
+    .articlescontainer {
+        width: 100%;
+    }
 }

@@ -172,13 +172,6 @@ declare module 'astro:content' {
   collection: "members",
   data: InferEntrySchema<"members">
 },
-"eiantsou.md": {
-  id: "eiantsou.md",
-  slug: "eiantsou",
-  body: string,
-  collection: "members",
-  data: InferEntrySchema<"members">
-},
 "evanlee.md": {
   id: "evanlee.md",
   slug: "evanlee",
