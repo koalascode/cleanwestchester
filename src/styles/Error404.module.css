@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img {
+    max-width: 50%;
+}
+
+.text {
+    max-width: 40%;
+}
+
+.header {
+    font-family: "Unbounded";
+}
+
+.button {
+    background: none;
+    border: grey solid 1px;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-family: "Inter";
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    transition: all 500ms ease;
+}
+
+.button:hover {
+    border: rgb(67, 162, 111) solid 1px;
+}
+
+
+@media (max-width: 550px) {
+    .text {
+        max-width: 90%;
+    }
+
+    .img {
+        max-width: 90%;
+        margin-top: 2rem;
+    }
+}

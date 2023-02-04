@@ -1,0 +1,29 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import styles from '../../styles/CleanUps.module.css'
+import { getCollection } from 'astro:content';
+
+const cleanUps = await getCollection('cleanups');
+
+console.log(cleanUps)
+
+cleanUps.sort((b,a) => new Date(a.data.date) - new Date(b.data.date))
+---
+
+<Layout title="Clean Ups">
+
+    <div class={styles.cleanupscontainer}>
+        {cleanUps.map(x =>
+            <div class={styles.indivcleanup}>
+                <img class={styles.cleanupimg} src={x.data.coverimg}/>
+                <a class="nolink" href={`/cleanups/${x.slug}`}>
+                <div class={styles.textctnr}>
+                    <p>{x.data.date}</p>
+                    <h1>{x.data.name}</h1>
+                </div>
+                </a>
+            </div>
+        )}
+    </div>
+
+</Layout>

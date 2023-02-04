@@ -1,0 +1,61 @@
+.container {
+    min-height: 90vh;
+    background-image: url("/background.jpg");
+    background-repeat: no-repeat;
+}
+
+.s1 {
+    margin-left: 2rem;
+    padding-top: 22vh;
+    height: 100%;
+}
+
+.s1header {
+    max-width: 24ch;
+    font-size: 3rem;
+    font-family: "Unbounded";
+    line-height: 1.4;
+}
+
+.s1main {
+    font-size: 1.2rem;
+    max-width: 70ch;
+}
+
+.button {
+    background: none;
+    border: grey solid 1px;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-family: "Inter";
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    transition: all 500ms ease;
+}
+
+.button:hover {
+    border: rgb(67, 162, 111) solid 1px;
+}
+
+
+@media (min-width: 200px) {
+    .container {
+        background-position-x: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .s1 {
+        padding-top: 5vh
+    }
+
+    .container {
+        background-position-x: right;
+        background-position-y: 3rem;
+        background-size: 80%;
+    }
+
+}

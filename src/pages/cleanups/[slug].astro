@@ -1,0 +1,42 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import styles from '../../styles/CleanUp.module.css'
+
+const { slug } = Astro.params;
+
+console.log(slug)
+
+export async function getStaticPaths() {
+    const posts = await Astro.glob('../../content/cleanups/*.md');
+
+    return posts.map(post => ({
+        params: {
+            slug: post.frontmatter.link
+        },
+        props: {
+            post
+        },
+    }));
+    
+}
+
+const { Content, frontmatter } = Astro.props.post;
+
+---
+
+<Layout title={frontmatter.name}>
+    <div class={styles.container}>
+        <div class={styles.maincontent}>
+            <div class={styles.toparticle}>
+                <h1>{frontmatter.name}</h1>
+                <p>Participants: {frontmatter.participants.map((y, index) => index != frontmatter.participants.length - 1 ? y + ", " : y)} </p>
+                <img src={frontmatter.coverimg} class={styles.coverimg}>
+                <p>{frontmatter.date}</p>
+            </div>
+            <div class={styles.mainarticle}>
+                <Content />
+            </div>
+        </div>
+    </div>
+
+</Layout>

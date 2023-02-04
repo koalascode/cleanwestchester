@@ -1,0 +1,29 @@
+--- 
+import Layout from "../layouts/Layout.astro";
+import styles from '../styles/About.module.css'
+
+const recentCleanUps = await Astro.glob('../content/cleanups/*.md');
+
+const arr = recentCleanUps.splice(recentCleanUps.length - 3).reverse()
+---
+
+
+<Layout title="About Us">
+    <div class={styles.s1}>
+        <h3 class={styles.smalls1}>Our Mission</h3>
+        <h1 class={styles.larges1}>We are creating meaningful impact in Westchester through bi-weekly <a class={styles.link} href="/cleanups"><b class={styles.boldlink}>clean ups</b></a> and fact-based <a class={styles.link} href="/articles"><b class={styles.boldlink}>articles</b></a></h1>
+    </div>
+    <div class={styles.s2}>
+        <h2 class={styles.recentcleanups}>Recent Clean Ups:</h2>
+        <div class={styles.cleanupscontainer}>
+            {arr.map(x =>
+                <div class={styles.indivcleanup}>
+                    <img class={styles.cleanupimg} src={x.frontmatter.coverimg} />  
+                    <a class={styles.cleanupname} href={`/cleanups/${x.frontmatter.link}`}>
+                        <h2>{x.frontmatter.name.length > 26 ? x.frontmatter.name.slice(0,22) + "..." : x.frontmatter.name}</h2>
+                    </a>
+                </div>
+            )}
+        </div>
+    </div>
+</Layout>

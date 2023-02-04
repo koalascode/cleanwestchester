@@ -1,0 +1,57 @@
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    gap: 1rem;
+    text-align: center;
+    cursor: pointer;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.indivpfp {
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
+    border-radius: 100%;
+
+    transition: all 500ms ease;
+}
+
+.indivperson {
+    color: black;
+    text-decoration: none;
+    width: 10rem;
+
+    transition: 500ms ease;
+}
+
+.indivname {
+    transition: all 500ms ease;
+}
+
+:is(.indivperson:hover) .indivname {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.indivrole {
+    max-width: 15ch;
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    .people {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+}

@@ -1,0 +1,24 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import styles from '../../styles/Team.module.css'
+import { getCollection } from 'astro:content';
+
+const members = await getCollection('members');
+---
+
+
+<Layout title=`${members.data.name} Profile`>
+    <div class={styles.container}>
+        <div class={styles.people}>
+            {members.sort((a,b) => a.data.position - b.data.position).map(x => 
+            <a href={`/team/${x.slug}`} class={styles.indivperson}>
+                <div>
+                    <img class={styles.indivpfp} src={x.data.pfp}/>
+                    <h3 class={styles.indivname}>{x.data.name}</h3>
+                    <p class={styles.indivrole}>{x.data.role}</p>
+                </div>
+            </a>
+            )}
+        </div>
+    </div>
+</Layout>

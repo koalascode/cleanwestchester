@@ -1,0 +1,84 @@
+
+.s1 {
+    margin-top: 5rem;
+}
+
+.smalls1 {
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.larges1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 120%;
+    text-align: center;
+    color: #1D2130;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.boldlink {
+    color: rgb(48, 143, 237);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.s2 {
+    margin-top: 8rem;
+}
+
+.recentcleanups {
+    font-family: "Unbounded";
+    margin-left: 5vw;
+}
+
+.cleanupscontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.indivcleanup {
+    max-width: 30%;
+    display: grid;
+    align-items: center;
+}
+
+.cleanupimg {
+    object-fit: cover;
+    width: 70%;
+    height: 50vh;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.cleanupname {
+    max-width: 75%;
+    transform: translateY(-4rem);
+    background-color: white;
+    border-radius: 2px;
+    padding: 0.1rem 0.3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+
+    transition: color 500ms ease;
+}
+
+.cleanupname:hover {
+    color: black;
+}

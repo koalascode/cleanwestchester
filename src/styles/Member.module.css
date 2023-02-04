@@ -1,0 +1,65 @@
+
+.user {
+    max-width: 15rem;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.pfpimg {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.secttitle {
+    font-family: "Unbounded";
+    text-align: center;
+}
+
+.cleanupscontainer {
+    display: grid;
+    width: 50vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.cleanupindiv {
+    cursor: pointer;
+    max-width: 35ch;
+}
+
+.cleanupindivtxt {
+    text-decoration: none;
+}
+
+.articlescontainer {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.article {
+    max-width: 30%;
+    padding-bottom: .5rem;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    
+    background-color: rgb(241, 241, 241);
+}
+
+.articleimg {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.nolinknocol {
+    color: inherit
+}

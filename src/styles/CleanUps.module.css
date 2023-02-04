@@ -1,0 +1,38 @@
+.cleanupscontainer {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2rem;
+
+    justify-content: space-around;
+    align-self: center;
+}
+
+.cleanupimg {
+    max-width: 100%;
+}
+
+.indivcleanup {
+    max-width: 100%
+}
+
+.textctnr {
+    color: rgb(76, 76, 76);
+
+    transition: color 500ms ease;
+}
+
+.textctnr:hover {
+    color: black;
+}
+
+@media (max-width: 800px) {
+    .cleanupscontainer {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .cleanupscontainer {
+        grid-template-columns: 95%;
+    }
+}

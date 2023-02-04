@@ -1,0 +1,19 @@
+---
+
+import styles from '../styles/Error404.module.css'
+import Layout from '../layouts/Layout.astro'
+
+
+---
+
+<Layout title="404 Error">
+    <div class={styles.container}>
+        <div class={styles.text}>
+            <h1 class={styles.header}>It seems that this page does not exist</h1>
+            <a href="/">
+                <button class={styles.button}>return home</button>
+            </a>
+        </div>
+        <img class={styles.img} src="/aitreeart.png"/>
+    </div>
+</Layout>

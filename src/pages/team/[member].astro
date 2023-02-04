@@ -1,0 +1,77 @@
+---
+import { getCollection, getEntryBySlug } from 'astro:content';
+import Layout from '../../layouts/Layout.astro'
+import styles from '../../styles/Member.module.css'
+
+
+export async function getStaticPaths() {
+    const members = await getCollection('members');
+
+    const arr = members.map(x => {return {params: {member: x.slug}}})
+    
+  return arr;
+}
+
+const { member } = Astro.params;
+
+const currMember = await getEntryBySlug('members', member)
+
+const currMemberArticles = await getCollection('articles', ({ data }) => {
+  return data.authors.includes(currMember.data.name)
+})
+
+const currMemberCleanUps = await getCollection('cleanups', ({ data }) => {
+  return data.participants.includes(currMember.data.name)
+})
+
+//console.log(currMemberCleanUps)
+
+---
+
+<Layout title=`${currMember?.data?.name} Profile`>
+  <div class={styles.container}>
+    <div class={styles.user}>
+      <img class={styles.pfpimg} src={currMember.data.pfp}/>
+      <h2>{currMember.data.name}</h2>
+      <p>{currMember.data.role}</p>
+      <p>{currMember.data.description}</p>
+    </div>
+    {currMemberArticles.length != 0
+    ?
+    <div class={styles.articles}>
+      <h1 class={styles.secttitle}>Articles: </h1>
+      <div class={styles.articlescontainer}>
+        {currMemberArticles.map(x =>
+          <a href={`/articles/${x.slug}`}>
+            <div class={styles.article}>
+              <img class={styles.articleimg} src={x.data.coverimg}/>
+              <p>{x.data.date}</p>
+              <h2>{x.data.title}</h2>
+              <p>{x.data.description}</p>
+            </div>
+          </a>
+        )}
+      </div>
+    </div>
+    :
+    null}
+
+    {currMemberCleanUps.length != 0 ?
+    <div>
+      <h1 class={styles.secttitle}>Clean-ups:</h1>
+      <div class={styles.cleanupscontainer}>
+        {currMemberCleanUps.sort((b,a) => new Date(a.data.date) - new Date(b.data.date)).map(x => 
+          <a class={styles.nolinknocol} href={`/cleanups/${x.slug}`}>
+            <div class={styles.cleanupindiv}>
+              <p class={styles.cleanupindivtxt}>{x.data.icon} {x.data.name} {x.data.date}</p>
+            </div>
+          </a>
+        )}
+      </div>
+    </div>
+    : 
+    null
+    }
+
+  </div>
+</Layout>

@@ -1,0 +1,33 @@
+.articlescontainer {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidetextheader {
+    font-family: "Unbounded";
+}
+
+.indivarticle {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 2rem;
+
+}
+
+.articleimg {
+    width: 100%;
+}
+
+.text {
+    text-align: right;
+    margin: auto;   
+    width: 60%;
+    color: rgb(76, 76, 76);
+    text-decoration: none;
+
+    transition: 500ms color ease;
+}
+
+.text:hover {
+    color: black;
+}

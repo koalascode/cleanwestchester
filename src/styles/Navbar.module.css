@@ -1,0 +1,38 @@
+.container {
+    margin-bottom: 2rem;
+}
+
+.logoimg {
+    width: 4rem;
+    padding-left: 5vw;
+    transform: translateY(0.5rem);
+}
+
+.linkcontainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: -3rem;
+}
+
+.linktext {
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+
+    transition: color 500ms ease;
+}
+
+.linktext:hover {
+    color: black;
+}
+
+
+@media (max-width: 550px) {
+    .linkcontainer {
+        margin-left: 5rem;
+    }
+
+    .logoimg {
+        padding-left: 1vw;
+    }
+}

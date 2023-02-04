@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import styles from '../styles/IndexPage.module.css'
+
+---
+
+<Layout title="Clean Westchester | Home">
+    <div class={styles.container}>
+        <div class={styles.s1}>
+            <h1 class={styles.s1header}>Practical people dedicated to finding practical solutions</h1>
+            <p class={styles.s1main}>At Clean Westchester, we focus our environmental action on measureable results through clean-ups and education.</p>
+            <div class={styles.buttoncontainers}>
+                <a href="/about">
+                    <button class={styles.button}>learn more</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</Layout>
