@@ -4,12 +4,16 @@ import { getCollection } from 'astro:content';
 import styles from '../../styles/ArticleHome.module.css'
 import Articles from '../../components/articles.tsx'
 
+const fetchedArticles = await getCollection('articles')
+
+fetchedArticles.sort((b,a) => new Date(a.data.date) - new Date(b.data.date))
+
 ---
 
 
 <Layout title="Articles">
     
-    <Articles client:load/>
+    <Articles allArticles={fetchedArticles} client:load/>
 
 
 </Layout>

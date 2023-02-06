@@ -2,27 +2,24 @@ import { getCollection } from 'astro:content';
 import styles from '../styles/ArticleHome.module.css'
 import { useEffect, useState } from "react";
 
-export default function Article() {
-    const [articles, setArticles] = useState(null)
-    const [allArticles, setAllArticles] = useState(null)
+export default function Article({ allArticles }) {
+    const [articles, setArticles] = useState(allArticles)
     const [timeSortLatest, setTimeSortLatest] = useState(true)
     const [authors, setAuthors] = useState([])
     
 
     const getArticles = async () => {
-        const fetchedArticles = await getCollection('articles')
-        setArticles(fetchedArticles)
-        setAllArticles(fetchedArticles)
+
         const currAuthors = []
-        for (let i = 0; i < fetchedArticles.length; i++) {
-            for (let j = 0; j < fetchedArticles[i].data.authors.length; j++) {
-                if (!currAuthors.includes(fetchedArticles[i].data.authors[j])) {
-                    console.log(fetchedArticles[i].data.authors[j])
-                    currAuthors.push(fetchedArticles[i].data.authors[j])
+        for (let i = 0; i < articles.length; i++) {
+            for (let j = 0; j < articles[i].data.authors.length; j++) {
+                if (!currAuthors.includes(articles[i].data.authors[j])) {
+                    console.log(articles[i].data.authors[j])
+                    currAuthors.push(articles[i].data.authors[j])
                 }
             }
         }
-        console.log(currAuthors)
+
         currAuthors.unshift("All")
         setAuthors(currAuthors)
        
