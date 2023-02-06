@@ -2,7 +2,7 @@
 
 authors: ["Kevin Daniel"]
 title: How the Media Has Affected Popular Perception of the Ozone Layer
-date: 8-20-2022
+date: 08-20-2022
 coverimg: https://cleanwestchester.s3.amazonaws.com/ozonefirstcover.png
 description: Ozone article
 slug: mediaimpactonozonelayer

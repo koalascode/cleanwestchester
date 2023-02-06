@@ -2,7 +2,7 @@
 
 authors: ["Kevin Daniel"]
 title: Clean Westchester’s Favorite Wildlife Sites in the County
-date: 1-14-2023
+date: 01-14-2023
 coverimg: https://cleanwestchester.s3.amazonaws.com/topwildlifewestchester.jpeg
 description: The best Westchester parks and preserves for seeing local wildlife and enjoying nature.
 slug: ourfavoritewildlifespotsnearby

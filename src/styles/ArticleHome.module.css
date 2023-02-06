@@ -32,6 +32,22 @@
     color: black;
 }
 
+.sortingbutton {
+    background: none;
+    border: grey solid 1px;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-family: "Inter";
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    transition: all 500ms ease;
+}
+
+.sortingbutton:hover {
+    border: rgb(67, 162, 111) solid 1px;
+}
 
 @media (max-width: 700px) {
     .articlescontainer {

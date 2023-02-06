@@ -2,7 +2,7 @@
 
 authors: ["Kevin Daniel"]
 title: Deforestation in the Congo
-date: 3-12-2022
+date: 03-12-2022
 coverimg: https://cleanwestchester.s3.amazonaws.com/deforestationincongo.png
 description: Deforestation in the Congo Is Still a Pressing Environmental Issue; How Is the World Responding?
 slug: deforestationincongo

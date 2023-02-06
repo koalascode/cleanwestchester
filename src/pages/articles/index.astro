@@ -2,36 +2,14 @@
 import Layout from '../../layouts/Layout.astro'
 import { getCollection } from 'astro:content';
 import styles from '../../styles/ArticleHome.module.css'
-
-
-const articles = await getCollection('articles')
-
-articles.sort((b,a) => new Date(a.data.date) - new Date(b.data.date))
+import Articles from '../../components/articles.tsx'
 
 ---
 
 
 <Layout title="Articles">
-    <div>
-        <div class={styles.articlescontainer}>
-            <h2 class={styles.sidetextheader}>Latest articles</h2>
-            <div>
-                {articles.map(x =>
-                    <div class={styles.indivarticle}>
-                        <img class={styles.articleimg} src={x.data.coverimg} alt="article image cover"/>
-                        <a class="nolink" href={`/articles/${x.slug}`}>
-                        <div class={styles.text}>
-                            <p>{x.data.date}</p>
-                            <h1>{x.data.title}</h1>
-                            <p>{x.data.authors.map( y => y )}</p>
-                        </div>
-                        </a>
-                    </div>
-                )}
-            </div>
-        </div>
-    </div>
     
+    <Articles client:load/>
 
 
 </Layout>
