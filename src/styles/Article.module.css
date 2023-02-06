@@ -30,6 +30,11 @@ h2 {
     font-size: 1.7rem;
 }
 
+li, a {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
 
 p {
     line-height: 1.5;
