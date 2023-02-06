@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 export default function Article({ allArticles }) {
     const [articles, setArticles] = useState(allArticles)
-    const [timeSortLatest, setTimeSortLatest] = useState(true)
     const [authors, setAuthors] = useState([])
     
 
@@ -19,11 +18,9 @@ export default function Article({ allArticles }) {
                 }
             }
         }
-
+        currAuthors.sort()
         currAuthors.unshift("All")
         setAuthors(currAuthors)
-       
-        console.log(await getCollection('articles'))
     }
 
     useEffect(() => {

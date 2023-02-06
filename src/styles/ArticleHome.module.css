@@ -1,6 +1,8 @@
 .articlescontainer {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 15% 80%;
+    margin-left: 5%;
+    gap: 3%;
 }
 
 .sidetextheader {
