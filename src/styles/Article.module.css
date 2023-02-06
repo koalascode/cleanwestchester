@@ -33,6 +33,7 @@ h2 {
 
 p {
     line-height: 1.5;
+    max-width: 100%;
 }
 
 .mainarticle a {
@@ -74,3 +75,4 @@ iframe {
 .author {
     
 }
+
