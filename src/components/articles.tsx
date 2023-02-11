@@ -79,7 +79,7 @@ export default function Article({ allArticles }) {
                         <h3>Articles by Author</h3>
                         <select id="authorsselect" className={styles.sortingbutton}>
                             {authors.map(x =>
-                                <option value={x}>
+                                <option key={x} value={x}>
                                     {x}
                                 </option>
                             )}
@@ -89,7 +89,7 @@ export default function Article({ allArticles }) {
             </div>
             <div>
                 {articles.map(x =>
-                    <div className={styles.indivarticle}>
+                    <div key={x.slug} className={styles.indivarticle}>
                         <img className={styles.articleimg} src={x.data.coverimg} alt="article image cover"/>
                         <a className="nolink" href={`/articles/${x.slug}`}>
                         <div className={styles.text}>

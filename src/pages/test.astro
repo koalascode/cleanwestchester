@@ -1,0 +1,65 @@
+---
+
+import Layout from '../layouts/Layout.astro';
+import styles from '../styles/IndexPage.module.css'
+
+const recentCleanUps = await Astro.glob('../content/cleanups/*.md');
+
+const cleanUpsArr = recentCleanUps.splice(recentCleanUps.length - 2).reverse()
+
+const recentArticles = await Astro.glob('../content/articles/*.md')
+
+const articlesArr = recentArticles.sort((a,b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)).splice(recentArticles.length - 2).reverse();
+
+console.log(articlesArr)
+---
+
+<Layout title="Clean Westchester | Home">
+    <div class={styles.container}>
+        <div class={styles.s1}>
+            <h1 class={styles.s1header}>Practical people dedicated to finding practical solutions</h1>
+            <p class={styles.s1main}>At Clean Westchester, we focus our environmental action on measureable results through clean-ups and education.</p>
+            <div class={styles.buttoncontainers}>
+                <a href="/about">
+                    <button class={styles.button}>learn more</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class={styles.doublecontainer}>
+        <div class={styles.indivcontainer}>
+            <h1 class={styles.header}>Recent Articles</h1>
+            <div class={styles.articlescontainer}>
+            {articlesArr.map(x =>
+                <div class={styles.indivarticles}>
+                    <img class={styles.articleimg} src={x.frontmatter.coverimg} />
+                    <a class={styles.articlelink} href={"/articles/" + x.frontmatter.slug}>
+                        <p>{x.frontmatter.authors.map((y, index) => index != x.frontmatter.authors.length - 1 ? y + ", " : y) + " -  " + x.frontmatter.date  }</p>
+                        <h2>{x.frontmatter.title}</h2>
+                    </a>
+                </div>
+            )}
+            </div>
+            <a href="/articles" class="nolink">
+                <p class={styles.seeall}>see all -></p>
+            </a>
+        </div>
+        <div class={styles.indivcontainer}>
+            <h1 class={styles.header}>Recent Clean Ups</h1>
+            <div class={styles.cleanupscontainer}>
+                {cleanUpsArr.map(x =>
+                    <div class={styles.indivcleanup}>
+                        <img class={styles.cleanupimg} src={x.frontmatter.coverimg} />  
+                        <a class={styles.cleanupname} href={`/cleanups/${x.frontmatter.link}`}>
+                            <h2>{x.frontmatter.name.length > 26 ? x.frontmatter.name.slice(0,30) + "..." : x.frontmatter.name}</h2>
+                        </a>
+                    </div>
+                )}
+            </div>
+            <a href="/cleanups" class="nolink">
+                <p class={styles.seeall}>see all -></p>
+            </a>
+        </div>
+    </div>
+</Layout>
