@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 .container {
     min-height: 40vh;
     background-image: url("/background.jpg");
@@ -14,7 +16,8 @@
 .s1header {
     max-width: 24ch;
     font-size: 2.9rem;
-    font-family: "Unbounded";
+
+    font-weight: 900;
     line-height: 1.4;
 }
 
@@ -68,22 +71,6 @@
 
 
 
-.larges1 {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.5rem;
-    line-height: 120%;
-    text-align: center;
-    color: #1D2130;
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.boldlink {
-    color: rgb(48, 143, 237);
-}
-
 .doublecontainer {
     display: grid;
     grid-template-columns: 49% 49%;
@@ -105,7 +92,8 @@
 
 .header {
     text-align: center;
-    font-family: "Unbounded";
+
+    font-weight: 700;
 }
 
 .cleanupscontainer {
