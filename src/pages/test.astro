@@ -52,6 +52,7 @@ console.log(articlesArr)
                     <div class={styles.indivcleanup}>
                         <img class={styles.cleanupimg} src={x.frontmatter.coverimg} />  
                         <a class={styles.cleanupname} href={`/cleanups/${x.frontmatter.link}`}>
+                            <p>{x.frontmatter.date}</p>
                             <h2>{x.frontmatter.name.length > 26 ? x.frontmatter.name.slice(0,30) + "..." : x.frontmatter.name}</h2>
                         </a>
                     </div>
