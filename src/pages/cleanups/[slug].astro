@@ -26,6 +26,7 @@ const { Content, frontmatter } = Astro.props.post;
 ---
 
 <Layout title={frontmatter.name}>
+    <title>{"Clean Westchester Clean Up -" + frontmatter.name}</title>
     <div class={styles.container}>
         <div class={styles.maincontent}>
             <div class={styles.toparticle}>
