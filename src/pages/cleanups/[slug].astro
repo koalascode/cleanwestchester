@@ -26,7 +26,11 @@ const { Content, frontmatter } = Astro.props.post;
 ---
 
 <Layout title={frontmatter.name}>
-    <title>{"Clean Westchester Clean Up -" + frontmatter.name}</title>
+    <head>
+        <title>{"Clean Westchester Clean Up - " + frontmatter.name}</title>
+        <meta data-react-helmet="true" name="description" content={"Clean Westchester Clean Up " + frontmatter.name}>
+        <meta data-react-helmet="true" property="og:image" content={frontmatter.coverImg}>
+    </head>
     <div class={styles.container}>
         <div class={styles.maincontent}>
             <div class={styles.toparticle}>
