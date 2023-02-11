@@ -1,8 +1,8 @@
 .container {
-    min-height: 80vh;
+    min-height: 70vh;
     background-image: url("/background.jpg");
     background-repeat: no-repeat;
-    background-position-y: -5rem;
+    background-position-y: -10rem;
 }
 
 .s1 {
