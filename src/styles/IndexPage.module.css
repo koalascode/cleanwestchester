@@ -1,19 +1,19 @@
 .container {
-    min-height: 70vh;
+    min-height: 40vh;
     background-image: url("/background.jpg");
     background-repeat: no-repeat;
-    background-position-y: -10rem;
+    background-position-y: -23rem;
 }
 
 .s1 {
     margin-left: 2rem;
-    padding-top: 15vh;
+    padding-top: 3vh;
     height: 100%;
 }
 
 .s1header {
     max-width: 24ch;
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-family: "Unbounded";
     line-height: 1.4;
 }
@@ -88,7 +88,7 @@
     display: grid;
     grid-template-columns: 49% 49%;
     gap: 1%;
-    margin-top: 2rem;
+
 }
 
 .indivcontainer {
