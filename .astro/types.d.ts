@@ -63,6 +63,13 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"articles": {
+"biodiversityloss.md": {
+  id: "biodiversityloss.md",
+  slug: "biodiversityloss",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
 "deforestationincongo.md": {
   id: "deforestationincongo.md",
   slug: "deforestationincongo",
@@ -115,6 +122,13 @@ declare module 'astro:content' {
 "sciencebehindozonelayer.md": {
   id: "sciencebehindozonelayer.md",
   slug: "sciencebehindozonelayer",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
+"westchesterairquality.md": {
+  id: "westchesterairquality.md",
+  slug: "westchesterairqualityozone",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">
