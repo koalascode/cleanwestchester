@@ -6,6 +6,7 @@ date: 08-19-2022
 icon: 💧
 coverimg: https://cleanwestchester.s3.amazonaws.com/cwbronxcleanup.jpg
 link: cleanup2
+hours: 1
 
 ---
 

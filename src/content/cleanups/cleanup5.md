@@ -6,6 +6,7 @@ date: 02-5-2023
 icon: 🌿
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/cw5insta2-13.jpg
 link: cleanup5
+hours: 1
 
 ---
 

@@ -31,6 +31,7 @@ const cleanupsCollection = defineCollection({
     icon: z.string(),
     coverimg: z.string().optional(),
     link: z.string(),
+    hours: z.number(),
   })
 })
 

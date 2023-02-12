@@ -6,6 +6,7 @@ date: 03-12-2022
 icon: 🌳
 coverimg: https://cleanwestchester.s3.amazonaws.com/ourfirstcleanup.JPG
 link: cleanup1
+hours: 1
 
 ---
 

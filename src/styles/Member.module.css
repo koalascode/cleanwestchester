@@ -70,6 +70,9 @@
     color: inherit
 }
 
+.hours {
+    text-align: center;
+}
 
 @media (max-width: 550px) {
     .articlescontainer {
