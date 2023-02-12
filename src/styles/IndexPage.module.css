@@ -134,10 +134,12 @@
     grid-template-columns: 49% 49%;
     gap: 1%;
     padding: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .indivarticles {
-
+    max-width: 30rem;
 }
 
 .articleimg {

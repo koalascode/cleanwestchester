@@ -214,6 +214,13 @@ declare module 'astro:content' {
   collection: "members",
   data: InferEntrySchema<"members">
 },
+"razamalik.md": {
+  id: "razamalik.md",
+  slug: "razamalik",
+  body: string,
+  collection: "members",
+  data: InferEntrySchema<"members">
+},
 "rickyang.md": {
   id: "rickyang.md",
   slug: "rickyang",
