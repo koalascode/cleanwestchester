@@ -58,7 +58,7 @@
 
     .container {
         background-position-x: right;
-        background-position-y: 3rem;
+        background-position-y: -1.5rem;
         background-size: 80%;
     }
 
@@ -181,7 +181,12 @@
         flex-wrap: wrap;
     }
 
+    .s1 {
+        padding-top: 0vh;
+    }
+
     .doublecontainer {
         grid-template-columns: 100%;
+        margin-top: 1rem;
     }
 }

@@ -35,6 +35,11 @@
 @media (max-width: 550px) {
     .linkcontainer {
         margin-left: 5rem;
+        flex-wrap: wrap;
+        line-height: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        gap: 0rem 2rem;
     }
 
     .logoimg {
