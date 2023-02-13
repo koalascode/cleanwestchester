@@ -48,7 +48,7 @@ console.log(hours)
       <img class={styles.pfpimg} src={currMember.data.pfp}/>
       <h2>{currMember.data.name}</h2>
       <p>{currMember.data.role}</p>
-      <p>{currMember.data.description}</p>
+      <p class={styles.description}>{currMember.data.description}</p>
     </div>
     {currMemberArticles.length != 0
     ?

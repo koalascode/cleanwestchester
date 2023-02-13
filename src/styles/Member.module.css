@@ -1,10 +1,15 @@
 
 .user {
-    max-width: 18rem;
+    max-width: 30rem;
     margin: 0 auto;
     display: grid;
     justify-content: center;
     text-align: center;
+}
+
+.description {
+    font-weight: 300;
+    color: rgb(94, 94, 94);
 }
 
 
@@ -77,5 +82,10 @@
 @media (max-width: 550px) {
     .articlescontainer {
         width: 100%;
+    }
+
+    .user {
+        max-width: 95%;
+        margin: 0 auto;
     }
 }

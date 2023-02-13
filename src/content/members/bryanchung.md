@@ -8,6 +8,4 @@ role: Member
 slug: bryanchung
 position: 5
 
-
-
 ---
