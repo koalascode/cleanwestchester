@@ -70,6 +70,20 @@ declare module 'astro:content' {
   collection: "articles",
   data: InferEntrySchema<"articles">
 },
+"crotonpointaerialphotos.md": {
+  id: "crotonpointaerialphotos.md",
+  slug: "crotonpointaerialphotos",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
+"crotonpointrestoration.md": {
+  id: "crotonpointrestoration.md",
+  slug: "crotonpointrestoration",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
 "deforestationincongo.md": {
   id: "deforestationincongo.md",
   slug: "deforestationincongo",
