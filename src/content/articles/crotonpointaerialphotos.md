@@ -4,7 +4,7 @@ authors: ["Kevin Daniel"]
 title: The Restoration of Croton Point Park, Told with Aerial Photographs
 date: 02-12-2023
 coverimg: https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointaerialphotos-6.jpg
-description: One of Westchester's best parks lies on what used to be a landfill. Here's how the transition was made.
+description: How Westchester completed one of the most ambitious environmental projects in New York history, told by aerial images.
 slug: crotonpointaerialphotos
 
 ---
