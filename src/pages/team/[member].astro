@@ -55,7 +55,7 @@ console.log(hours)
     <div class={styles.articles}>
       <h1 class={styles.secttitle}>Articles: </h1>
       <div class={styles.articlescontainer}>
-        {currMemberArticles.map(x =>
+        {currMemberArticles.sort((b,a) => new Date(a.data.date) - new Date(b.data.date)).map(x =>
           <a class="nolink" href={`/articles/${x.slug}`}>
             <div class={styles.article}>
               <img class={styles.articleimg} src={x.data.coverimg}/>
