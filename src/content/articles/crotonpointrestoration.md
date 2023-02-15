@@ -9,6 +9,7 @@ slug: crotonpointrestoration
 
 ---
 Croton Point Mound
+
 Photo Credit: Mandy Huang
 
 
