@@ -28,7 +28,7 @@ After 1927, Westchester County’s garbage replaced the once-flourishing marshla
 ![Map image from many years later](https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointaerialphotos-3.jpg)
 1986
 
-## The Landfill
+## The Restoration
 After the restoration between 1992 and 1995, wildlife once again flourished on the land that was once filled with garbage. The re-establishment of vegetation and a healthy ecosystem can be seen in the maps   from 1995 and 2023. The highlighted blue areas in the 1995 map represent restored land:
 ![Map image 1995 shaded in Croton park](https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointaerialphotos-2.jpg)
 1995

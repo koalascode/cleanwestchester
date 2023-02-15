@@ -8,10 +8,10 @@ description: One of Westchester's best parks lies on what used to be a landfill.
 slug: crotonpointrestoration
 
 ---
-
+Croton Point Mound
 Photo Credit: Mandy Huang
 
-Croton Point Mound
+
 
 Today, Croton Point Park is one of the most diverse and thriving wildlife centers in the Tristate Area—it is the second most active birding hotspot in the county, and it fosters 504 acres of land available to the public for wildlife observation, hiking, and waterfront recreation. However, the peninsula on which the park is situated has not always been so wildlife-friendly.
 
