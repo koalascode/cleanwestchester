@@ -20,12 +20,14 @@ From 1927 to 1986, the area of the point that once fostered a marshland was conv
 
 ![Croton point wasteland, 1973](https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointrestoration-5.jpg)
 Credit: U.S. National Archives, Flickr
+
 Seagulls Scavenge at Croton Landfill Operation along the Hudson River 08/1973
 
 However, once it became apparent that the runoff from the dump was harming both local citizens and wildlife, it was clear that action had to be taken. According to the 1993 Record of Decision to rehabilitate Croton Point, “actual or threatened releases of hazardous substances from this site, if not addressed…present a current or potential threat to public health, welfare, and the environment.”
 
 ![Croton point getting restored](https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointrestoration-4.jpg)
 Credit: U.S. National Archives, Flickr
+
 Dump Trucks, Earthmovers and Seagulls at the Croton Landfill Operation 08/1973
 
 Action from citizens also helped to facilitate the rehabilitation of the Point. For instance, in 1987 a local environmentalist named John Cronin sued the county to stop pollutants from the landfill from draining into the Hudson river, nearby private properties, and the western part of the peninsula, which was still being operated as a public park at the time. Cronin would later spearhead the efforts to convert the landfill, along with famed folk singer and political reformer Pete Seeger.
@@ -41,6 +43,7 @@ In order to successfully recover the wildlife haven Croton Point once fostered, 
 
 ![Visual demonstration of surface and vegetation](https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointrestoration-2.jpg)
 Credit: Federal Remediation Technologies Roundtable
+
 An example of a capping system used to contain contaminated soil
 
 As construction began in 1992, the public park on the west side of the peninsula was closed; the park re-opened after the completion of the capping project in 1995. The newly restored land was incorporated into the park as well, expanding its area by nearly 30%.
@@ -49,6 +52,7 @@ By the end of the restoration, an impressive green mound now stood on the terrai
 
 ![](https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointrestoration-1.jpg)
 Credit: Karolyn Lamb
+
 A Hoary Redpoll at Croton Point Park—it was spotted on January 20, 2021, and had not been seen in Westchester County since 1978
 
 As the capping project and Croton Point was such a resounding success for the village, the government, and environmentalists alike, it has been used as a blueprint for similar projects elsewhere in New York. Most notably, the world’s largest garbage dump, the Fresh Kills Landfill in Staten Island, was closed in 2001, and a capping project began in 2007. It was completed in 2011 and it converted the landfill into a 233-acre park that fosters thriving wildlife.
