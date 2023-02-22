@@ -33,6 +33,7 @@ Action from citizens also helped to facilitate the rehabilitation of the Point. 
 
 ![](https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointrestoration-3.jpg)
 Credit: Wikipedia and Chronogram
+
 Pete Seeger (left) and John Cronin (right), two important figures in the action to restore the park
 
 In order to successfully recover the wildlife haven Croton Point once fostered, the Croton, Westchester, and New York governments were all tasked with a monumental effort. Under funding from the 1986 Environmental Quality Bond Act, $40 million ($25 million from the state and $15 million from the county) were allocated to the three-year project to see the Croton Point landfill capped and restored. To do this, officials needed to contain and convert the massive amounts of polluting agents that the park emitted on a daily basis. The capping system involved layers of plastic, fabric, and soil that were constructed such that rainwater couldn’t seep through the soil and spread polluted drainage, known as leachate, into the Hudson and other areas of the point. The cap system also contained more than a hundred wells, made to collect the nearly 7.5 million gallons of gas that the garbage emits each day. The collected gas was then used to power lights and other facilities used by the park. In total, the capping system required nearly 5 million square feet of plastic liner, 9 million square feet of geotextile fabric, 5.5 miles of piping, and 8.75 million cubic feet of soil and fill.
