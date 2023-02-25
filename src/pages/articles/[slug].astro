@@ -28,7 +28,11 @@ const author = await getCollection('members', ({ data }) => {
 })
 
 author.sort()
+
 frontmatter.authors.sort()
+
+//console.log(frontmatter?.slug)
+
 ---
 
 <Layout title={frontmatter?.title}>
@@ -36,11 +40,36 @@ frontmatter.authors.sort()
         <title>{frontmatter?.title}</title>
         <meta name="keywords" content={frontmatter?.title.replaceAll(" ", ", ")}>
         <meta name="author" content={frontmatter.authors.map((y, index) => index != frontmatter.authors.length - 1 ? y + ", " : y)}>
-        <meta name="description" content={frontmatter?.title}>
+        <meta name="description" content={frontmatter?.descrption}>
         <meta name="og:image" content="/aitreeart.png">
         <meta name="og:url" content="/aitreeart.png">
         <meta name="og:title" content="Clean Westchester">
         <meta name="og:type" content="article">
+
+        <!-- SEO -->
+        <link rel="canonical" href={frontmatter?.slug} />
+
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="My Astro Blog">
+        <meta property="og:title" content={frontmatter.title}>
+        <meta property="og:description" content={frontmatter.description}>
+        <meta property="og:url" content={"https://www.cleanwestchester.org/articles/" + frontmatter.slug} />
+        <meta property="og:image" content="">
+        <meta property="og:image:url" content="">
+        <meta property="og:image:secure_url" content={frontmatter.coverimg}>
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <meta property="og:image:alt" content={"https://www.cleanwestchester.org/articles/" + frontmatter.coverimg}>
+
+        <!-- Twitter -->
+        <meta name="twitter:title" content={frontmatter.title}>
+        <meta name="twitter:description" content={frontmatter.description}>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content={frontmatter.coverimg}>
+        <meta name="twitter:image:alt" content={frontmatter.title}>
+        <meta name="twitter:domain" content={"https://www.cleanwestchester.org/articles/" + frontmatter.slug}>
+
     </head>
     <div class={styles.container}>
         <div class={styles.maincontent}>
