@@ -2,9 +2,10 @@
 import '../styles/globals.css'
 export interface Props {
 	title: string;
+	seoFrontmatter?: object;
 }
 
-const { title } = Astro.props;
+const { title, setFrontmatter } = Astro.props;
 
 import Navbar from '../components/navbar.astro';
 
@@ -18,6 +19,37 @@ import Navbar from '../components/navbar.astro';
 		<link rel="icon" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+        <meta name="keywords" content={setFrontmatter?.title.replaceAll(" ", ", ")}>
+        <meta name="author" content={setFrontmatter?.authors?.map((y, index) => index != setFrontmatter.authors.length - 1 ? y + ", " : y)}>
+        <meta name="description" content={setFrontmatter?.descrption}>
+        <meta name="og:image" content="/aitreeart.png">
+        <meta name="og:url" content="/aitreeart.png">
+        <meta name="og:title" content="Clean Westchester">
+        <meta name="og:type" content="article">
+
+        <!-- SEO -->
+        <link rel="canonical" href={setFrontmatter?.slug} />
+
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="My Astro Blog">
+        <meta property="og:title" content={setFrontmatter?.title}>
+        <meta property="og:description" content={setFrontmatter?.description}>
+        <meta property="og:url" content={"https://www.cleanwestchester.org/articles/" + setFrontmatter?.slug} />
+        <meta property="og:image" content="">
+        <meta property="og:image:url" content="">
+        <meta property="og:image:secure_url" content={setFrontmatter?.coverimg}>
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <meta property="og:image:alt" content={"https://www.cleanwestchester.org/articles/" + setFrontmatter?.coverimg}>
+
+        <!-- Twitter -->
+        <meta name="twitter:title" content={setFrontmatter?.title}>
+        <meta name="twitter:description" content={setFrontmatter?.description}>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content={setFrontmatter?.coverimg}>
+        <meta name="twitter:image:alt" content={setFrontmatter?.title}>
+        <meta name="twitter:domain" content={"https://www.cleanwestchester.org/articles/" + setFrontmatter?.slug}>
 	</head>
 	<body>
 		<Navbar />

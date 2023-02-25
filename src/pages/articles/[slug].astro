@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import styles from '../../styles/Article.module.css'
 import { getCollection } from 'astro:content';
 
+
 const { slug } = Astro.params;
 
 console.log(slug)
@@ -36,7 +37,7 @@ frontmatter.authors.sort()
 ---
 
 <Layout title={frontmatter?.title}>
-    <head>
+    <head slot='head'>
         <title>{frontmatter?.title}</title>
         <meta name="keywords" content={frontmatter?.title.replaceAll(" ", ", ")}>
         <meta name="author" content={frontmatter.authors.map((y, index) => index != frontmatter.authors.length - 1 ? y + ", " : y)}>
@@ -69,7 +70,6 @@ frontmatter.authors.sort()
         <meta name="twitter:image" content={frontmatter.coverimg}>
         <meta name="twitter:image:alt" content={frontmatter.title}>
         <meta name="twitter:domain" content={"https://www.cleanwestchester.org/articles/" + frontmatter.slug}>
-
     </head>
     <div class={styles.container}>
         <div class={styles.maincontent}>
