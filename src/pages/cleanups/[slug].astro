@@ -29,10 +29,10 @@ const { Content, frontmatter } = Astro.props.post;
     <head>
         <title>{"Clean Westchester Clean Up - " + frontmatter.name}</title>
         <meta data-react-helmet="true" name="description" content={"Clean Westchester Clean Up " + frontmatter.name}>
-        <meta data-react-helmet="true" property="og:image" content={frontmatter.coverImg}>
-        <meta data-react-helmet="true" property="og:url" content={frontmatter.coverImg}>
-        <meta data-react-helmet="true" property="og:title" content={"Clean Westchester Clean Up - " + frontmatter.name}>
-        <meta property="og:type" content="article" />
+        <meta data-react-helmet="true" name="og:image" content={frontmatter.coverImg}>
+        <meta data-react-helmet="true" name="og:url" content={frontmatter.coverImg}>
+        <meta data-react-helmet="true" name="og:title" content={"Clean Westchester Clean Up - " + frontmatter.name}>
+        <meta name="og:type" content="article" />
     </head>
     <div class={styles.container}>
         <div class={styles.maincontent}>

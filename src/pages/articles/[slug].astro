@@ -32,6 +32,14 @@ frontmatter.authors.sort()
 ---
 
 <Layout title={frontmatter?.title}>
+    <head>
+        <title>{frontmatter?.title}</title>
+        <meta data-react-helmet="true" name="description" content={frontmatter?.title}>
+        <meta data-react-helmet="true" name="og:image" content="/aitreeart.png">
+        <meta data-react-helmet="true" name="og:url" content="/aitreeart.png">
+        <meta data-react-helmet="true" name="og:title" content="Clean Westchester">
+        <meta name="og:type" content="article">
+    </head>
     <div class={styles.container}>
         <div class={styles.maincontent}>
             <div class={styles.toparticle}>
