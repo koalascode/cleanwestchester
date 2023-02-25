@@ -35,6 +35,13 @@ frontmatter.authors.sort()
 
 ---
 <Layout title={frontmatter?.title} seoFrontmatter={frontmatter}>
+    <head>
+        <meta data-react-helmet="true" property="description" content={frontmatter?.description}>
+        <meta data-react-helmet="true" property="og:image" content={frontmatter?.coverimg}>
+        <meta data-react-helmet="true" property="og:url" content={"https://www.cleanwestchester.org/articles/" + frontamtter?.slug}>
+        <meta data-react-helmet="true" property="og:title" content={frontmatter?.title}>
+        <meta property="og:type" content="article">
+    </head>
     <div class={styles.container}>
         <div class={styles.maincontent}>
             <div class={styles.toparticle}>
