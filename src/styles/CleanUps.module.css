@@ -12,10 +12,16 @@
 
 .cleanupimg {
     max-width: 100%;
+
+    transition: all 500ms ease;
 }
 
 .indivcleanup {
     max-width: 100%
+}
+
+.indivcleanup:is(:hover) .cleanupimg {
+    opacity: 0.9;
 }
 
 .textctnr {
