@@ -5,10 +5,9 @@ export interface Props {
 	seoFrontmatter?: object;
 }
 
-const { title, setFrontmatter } = Astro.props;
+const { title, seoFrontmatter } = Astro.props;
 
 import Navbar from '../components/navbar.astro';
-
 ---
 
 <!DOCTYPE html>
@@ -19,37 +18,37 @@ import Navbar from '../components/navbar.astro';
 		<link rel="icon" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-        <meta name="keywords" content={setFrontmatter?.title.replaceAll(" ", ", ")}>
-        <meta name="author" content={setFrontmatter?.authors?.map((y, index) => index != setFrontmatter.authors.length - 1 ? y + ", " : y)}>
-        <meta name="description" content={setFrontmatter?.descrption}>
+        <meta name="keywords" content={seoFrontmatter?.title.replaceAll(" ", ", ")}>
+        <meta name="author" content={seoFrontmatter?.authors?.map((y, index) => index != setFrontmatter.authors.length - 1 ? y + ", " : y)}>
+        <meta name="description" content={seoFrontmatter?.descrption}>
         <meta name="og:image" content="/aitreeart.png">
         <meta name="og:url" content="/aitreeart.png">
         <meta name="og:title" content="Clean Westchester">
         <meta name="og:type" content="article">
 
         <!-- SEO -->
-        <link rel="canonical" href={setFrontmatter?.slug} />
+        <link rel="canonical" href={seoFrontmatter?.slug} />
 
         <!-- Open Graph -->
         <meta property="og:site_name" content={title}>
-        <meta property="og:title" content={setFrontmatter?.title}>
-        <meta property="og:description" content={setFrontmatter?.description}>
-        <meta property="og:url" content={"https://www.cleanwestchester.org/articles/" + setFrontmatter?.slug} />
+        <meta property="og:title" content={seoFrontmatter?.title}>
+        <meta property="og:description" content={seoFrontmatter?.description}>
+        <meta property="og:url" content={"https://www.cleanwestchester.org/articles/" + seoFrontmatter?.slug} />
         <meta property="og:image" content="">
         <meta property="og:image:url" content="">
-        <meta property="og:image:secure_url" content={setFrontmatter?.coverimg}>
+        <meta property="og:image:secure_url" content={seoFrontmatter?.coverimg}>
         <meta property="og:image:type" content="image/jpeg">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="600">
-        <meta property="og:image:alt" content={"https://www.cleanwestchester.org/articles/" + setFrontmatter?.coverimg}>
+        <meta property="og:image:alt" content={"https://www.cleanwestchester.org/articles/" + seoFrontmatter?.coverimg}>
 
         <!-- Twitter -->
-        <meta name="twitter:title" content={setFrontmatter?.title}>
-        <meta name="twitter:description" content={setFrontmatter?.description}>
+        <meta name="twitter:title" content={seoFrontmatter?.title}>
+        <meta name="twitter:description" content={seoFrontmatter?.description}>
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content={setFrontmatter?.coverimg}>
-        <meta name="twitter:image:alt" content={setFrontmatter?.title}>
-        <meta name="twitter:domain" content={"https://www.cleanwestchester.org/articles/" + setFrontmatter?.slug}>
+        <meta name="twitter:image" content={seoFrontmatter?.coverimg}>
+        <meta name="twitter:image:alt" content={seoFrontmatter?.title}>
+        <meta name="twitter:domain" content={"https://www.cleanwestchester.org/articles/" + seoFrontmatter?.slug}>
 	</head>
 	<body>
 		<Navbar />
