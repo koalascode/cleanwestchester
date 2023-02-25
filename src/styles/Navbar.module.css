@@ -5,6 +5,7 @@
     width: 100vw;
     padding-bottom: .5rem;
     position: fixed;
+    z-index: 99;
 }
 
 .logoimg {

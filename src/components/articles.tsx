@@ -89,9 +89,9 @@ export default function Article({ allArticles }) {
             </div>
             <div>
                 {articles.map(x =>
-                    <div key={x.slug} className={styles.indivarticle}>
+                    <div key={x.slug}>
+                        <a className="nolink" className={styles.indivarticle} href={`/articles/${x.slug}`}>
                         <img className={styles.articleimg} src={x.data.coverimg} alt="article image cover"/>
-                        <a className="nolink" href={`/articles/${x.slug}`}>
                         <div className={styles.text}>
                             <p>{x.data.date}</p>
                             <h1>{x.data.title}</h1>

@@ -42,8 +42,8 @@ console.log(articlesArr)
             <div class={styles.articlescontainer}>
             {articlesArr.map(x =>
                 <div class={styles.indivarticles}>
-                    <img class={styles.articleimg} src={x.frontmatter.coverimg} />
                     <a class={styles.articlelink} href={"/articles/" + x.frontmatter.slug}>
+                    <img class={styles.articleimg} src={x.frontmatter.coverimg} />
                         <p>{x.frontmatter.authors.map((y, index) => index != x.frontmatter.authors.length - 1 ? y + ", " : y) + " -  " + x.frontmatter.date  }</p>
                         <h2>{x.frontmatter.title}</h2>
                     </a>
@@ -59,8 +59,8 @@ console.log(articlesArr)
             <div class={styles.cleanupscontainer}>
                 {cleanUpsArr.map(x =>
                     <div class={styles.indivcleanup}>
-                        <img class={styles.cleanupimg} src={x.frontmatter.coverimg} />  
                         <a class={styles.cleanupname} href={`/cleanups/${x.frontmatter.link}`}>
+                        <img class={styles.cleanupimg} src={x.frontmatter.coverimg} />  
                             <p>{x.frontmatter.date}</p>
                             <h2>{x.frontmatter.name.length > 26 ? x.frontmatter.name.slice(0,30) + "..." : x.frontmatter.name}</h2>
                         </a>

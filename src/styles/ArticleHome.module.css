@@ -6,18 +6,26 @@
 }
 
 .sidetextheader {
-    font-family: "Unbounded";
+    font-family: "Bebas Neue";
+    font-size: 2.5rem;
 }
 
 .indivarticle {
     display: grid;
     grid-template-columns: 30% 70%;
     margin-bottom: 2rem;
+    z-index: 1;
+    text-decoration: none;
+}
 
+.indivarticle:is(:hover) .articleimg {
+    opacity: 0.8;
 }
 
 .articleimg {
     width: 100%;
+    transition: all 500ms ease;
+    background-color: black;
 }
 
 .text {
