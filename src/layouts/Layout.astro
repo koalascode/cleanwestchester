@@ -31,7 +31,7 @@ import Navbar from '../components/navbar.astro';
         <link rel="canonical" href={setFrontmatter?.slug} />
 
         <!-- Open Graph -->
-        <meta property="og:site_name" content="My Astro Blog">
+        <meta property="og:site_name" content={title}>
         <meta property="og:title" content={setFrontmatter?.title}>
         <meta property="og:description" content={setFrontmatter?.description}>
         <meta property="og:url" content={"https://www.cleanwestchester.org/articles/" + setFrontmatter?.slug} />
