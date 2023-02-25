@@ -34,10 +34,12 @@ frontmatter.authors.sort()
 <Layout title={frontmatter?.title}>
     <head>
         <title>{frontmatter?.title}</title>
-        <meta data-react-helmet="true" name="description" content={frontmatter?.title}>
-        <meta data-react-helmet="true" name="og:image" content="/aitreeart.png">
-        <meta data-react-helmet="true" name="og:url" content="/aitreeart.png">
-        <meta data-react-helmet="true" name="og:title" content="Clean Westchester">
+        <meta name="keywords" content={frontmatter?.title.replaceAll(" ", ", ")}>
+        <meta name="author" content={frontmatter.authors.map((y, index) => index != frontmatter.authors.length - 1 ? y + ", " : y)}>
+        <meta name="description" content={frontmatter?.title}>
+        <meta name="og:image" content="/aitreeart.png">
+        <meta name="og:url" content="/aitreeart.png">
+        <meta name="og:title" content="Clean Westchester">
         <meta name="og:type" content="article">
     </head>
     <div class={styles.container}>
