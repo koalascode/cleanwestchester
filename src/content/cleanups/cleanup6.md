@@ -10,7 +10,7 @@ hours: 1
 
 ---
 
-After a week off for break, we came back to clean the Weinberg Natuer Center and the entrance to the Hutch. There is a trail along the Weinberg Nature Center that borders the entrance of the Hutch. 
+After a week off for break, we came back to clean the Weinberg Natuer Center and the entrance to the Hutch. Specifically, the trail along the Weinberg Nature Center that borders the entrance of the Hutch. 
 
 ![Wide photo of the clean-up](https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-6/cw6insta-7.jpg)
 
