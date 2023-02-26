@@ -38,7 +38,7 @@ const { Content, frontmatter } = Astro.props.post;
         <div class={styles.maincontent}>
             <div class={styles.toparticle}>
                 <h1>{frontmatter.name}</h1>
-                <p>Participants: {frontmatter.participants.map((y, index) => index != frontmatter.participants.length - 1 ? y + ", " : y)} </p>
+                <p><b>{frontmatter.participants.length} Participants:</b> {frontmatter.participants.map((y, index) => index != frontmatter.participants.length - 1 ? y + ", " : y)} </p>
                 <img src={frontmatter.coverimg} class={styles.coverimg}>
                 <p>{frontmatter.date}</p>
             </div>

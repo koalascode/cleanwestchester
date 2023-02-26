@@ -11,7 +11,9 @@
 }
 
 .cleanupimg {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 17rem;
 
     transition: all 500ms ease;
 }
