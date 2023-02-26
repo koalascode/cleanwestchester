@@ -8,6 +8,8 @@ export interface Props {
 const { title, seoFrontmatter } = Astro.props;
 
 import Navbar from '../components/navbar.astro';
+
+console.log(seoFrontmatter)
 ---
 
 <!DOCTYPE html>
@@ -18,8 +20,8 @@ import Navbar from '../components/navbar.astro';
 		<link rel="icon" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-        <meta name="keywords" content={seoFrontmatter?.title.replaceAll(" ", ", ")}>
-        <meta name="author" content={seoFrontmatter?.authors?.map((y, index) => index != seoFrontmatter.authors.length - 1 ? y + ", " : y)}>
+        <meta name="keywords" content={seoFrontmatter?.title?.replaceAll(" ", ", ")}>
+        <meta name="author" content={seoFrontmatter?.authors ? seoFrontmatter?.authors?.map((y, index) => index != seoFrontmatter?.authors?.length - 1 ? y + ", " : y) : null}>
         <meta name="description" content={seoFrontmatter?.descrption}>
         <meta name="og:image" content="/aitreeart.png">
         <meta name="og:url" content="/aitreeart.png">

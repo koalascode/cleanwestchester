@@ -25,7 +25,7 @@ const { Content, frontmatter } = Astro.props.post;
 
 ---
 
-<Layout title={frontmatter.name}>
+<Layout title={frontmatter.name} seoFrontmatter={frontmatter}>
     <head>
         <title>{"Clean Westchester Clean Up - " + frontmatter.name}</title>
         <meta data-react-helmet="true" name="description" content={"Clean Westchester Clean Up " + frontmatter.name}>
