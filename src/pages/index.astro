@@ -11,8 +11,6 @@ const recentArticles = await Astro.glob('../content/articles/*.md')
 
 const articlesArr = recentArticles.sort((a,b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)).splice(recentArticles.length - 2).reverse();
 
-console.log(articlesArr)
-
 //  <p class={styles.s1main}>At Clean Westchester, we focus our environmental action on measureable results through clean-ups and education.</p>
 ---
 
