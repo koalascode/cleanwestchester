@@ -221,6 +221,13 @@ declare module 'astro:content' {
   collection: "members",
   data: InferEntrySchema<"members">
 },
+"izzyzhu.md": {
+  id: "izzyzhu.md",
+  slug: "izzyzhu",
+  body: string,
+  collection: "members",
+  data: InferEntrySchema<"members">
+},
 "kellydeng.md": {
   id: "kellydeng.md",
   slug: "kellydeng",
@@ -266,6 +273,13 @@ declare module 'astro:content' {
 "sophiawu.md": {
   id: "sophiawu.md",
   slug: "sophiawu",
+  body: string,
+  collection: "members",
+  data: InferEntrySchema<"members">
+},
+"zacharyarnold.md": {
+  id: "zacharyarnold.md",
+  slug: "zacharyarnold",
   body: string,
   collection: "members",
   data: InferEntrySchema<"members">

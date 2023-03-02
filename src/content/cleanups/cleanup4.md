@@ -1,6 +1,6 @@
 ---
 
-participants: ["Aaron Anidjar", "Izzie Zhu", "Rick Yang", "Bryan Chung", "Linda Zhang", "Chloe Ji", "Kelly Deng", "Evan Lee", "Sophia Wu"]
+participants: ["Aaron Anidjar", "Izzy Zhu", "Rick Yang", "Bryan Chung", "Linda Zhang", "Chloe Ji", "Kelly Deng", "Evan Lee", "Sophia Wu"]
 name: Bi-Weekly 2 - Mamaroneck Road & Weinberg Nature Preserve
 date: 01-23-2023
 icon: 🌿
