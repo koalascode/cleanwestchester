@@ -1,6 +1,6 @@
 ---
 
-participants: ["Aaron Anidjar", "Rick Yang", "Kevin Daniel", "Raza Malik", ]
+participants: ["Aaron Anidjar", "Rick Yang", "Kevin Daniel", "Raza Malik", "Noor Omar", "Arden Dunlap", "Tori Summo", "Clara Brine", "Clara Neilson-Papish", "Eli Neilson-Papish", "Zachary Neilson-Papish"]
 name: Bi-Weekly 6 - With Pleasantville Sustainability Club
 date: 03-26-2023
 icon: 🌿
