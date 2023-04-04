@@ -119,6 +119,13 @@ declare module 'astro:content' {
   collection: "articles",
   data: InferEntrySchema<"articles">
 },
+"oceanoilspills.md": {
+  id: "oceanoilspills.md",
+  slug: "oceanoilspills",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
 "ozonelayerstillunderthreat.md": {
   id: "ozonelayerstillunderthreat.md",
   slug: "ozonelayerstillunderthreat",
@@ -143,6 +150,20 @@ declare module 'astro:content' {
 "westchesterairquality.md": {
   id: "westchesterairquality.md",
   slug: "westchesterairqualityozone",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
+"westchesterelectricvehicles.md": {
+  id: "westchesterelectricvehicles.md",
+  slug: "westchesterelectricvehicles",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
+"westchesterenvproblemssummary.md": {
+  id: "westchesterenvproblemssummary.md",
+  slug: "westchesterenvproblemssummary",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">
