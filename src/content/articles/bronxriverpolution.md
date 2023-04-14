@@ -1,7 +1,7 @@
 ---
 
 authors: ["Kevin Daniel"]
-title: 'The Water under the Bridge A History of Pollution in the Bronx River'
+title: 'The Water under the Bridge: A History of Pollution in the Bronx River'
 date: 04-09-23
 coverimg: https://cleanwestchester.s3.amazonaws.com/articleimgs/bronxriverpolution5.jpg
 description: A brief history of the polution in the Bronx RIver.

@@ -1,7 +1,7 @@
 ---
 
 authors: ["Kevin Daniel"]
-title: From Garbage to Grassland - The Restoration of Croton Point
+title: 'From Garbage to Grassland: The Restoration of Croton Point'
 date: 02-12-2023
 coverimg: https://cleanwestchester.s3.amazonaws.com/articleimgs/crotonpointrestoration-6.jpg
 description: One of Westchester's best parks lies on what used to be a landfill. Here's how the transition was made.
