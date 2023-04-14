@@ -19,13 +19,18 @@ Unfortunately, in the past 4 or 5 decades, the ozone layer has been significantl
 
 Ozone levels vary naturally from season to season, as ozone most readily forms on warm, sunny days with more direct sunlight, while its formation is inhibited by turbulent weather. Nevertheless, the trend in ozone levels that was observed in the late-19th century was not a natural occurrence, but rather one for which humans were at fault. This ozone depletion was most severe at the poles, where large swaths of Earth lacked sufficient protection from the harmful radiation of the sun. These areas are known as ozone holes. They appear at the poles because circulating air currents transport CFCs and other damaging gasses to both Antarctica and the Arctic. The low temperatures of polar regions also spur the formation of polar stratospheric clouds, which foster reactions that harm the ozone layer.
 
-![Screen Shot 2022-08-20 at 3.55.52 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/50dbe48b-dc05-421a-8ec2-b05a347bc6be/Screen_Shot_2022-08-20_at_3.55.52_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T174950Z&X-Amz-Expires=86400&X-Amz-Signature=8a42cbfc5efbe7e73e7e9c6827b2d9b9f4fd0462882bdde41d60a5c94ed07c6f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25203.55.52%2520AM.png%22&x-id=GetObject)
+![](https://cleanwestchester.s3.amazonaws.com/articleimgs/ozonethreat4.jpg)
+
+<p class="credit">Photo Credit: NASA Ozone Watch</p>
+<p class="caption">Left: The Antarctic Ozone Hole at its deepest extent in September of 1994, Right: The Artic Ozone Hole in October of 2005</p>
 
 CFCs are harmful to ozone because they begin as pollutants in the lower atmosphere, but are relatively unreactive, meaning they are able to drift upwards into the stratosphere. Energy from sunlight then splits CFC molecules, causing a chlorine atom to be released. This chlorine atom reacts with ozone to form chlorine monoxide (ClO) and oxygen gas. Subsequently, scientists have recorded increased levels of chlorine monoxide as ozone levels decreased. This process of ozone depletion can also occur with other halocarbons, which can release different halogens, such as bromine, that also destroy ozone.
 
 CFCs were incredibly common in various household products after the 1930s, and they would often be utilized in AC and refrigeration units, insulation materials, and aerosol cans. This meant it would be quite difficult to prevent the use of CFCs internationally and would require an unprecedented amount of global cooperation.
 
-![Screen Shot 2022-08-20 at 3.56.22 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/adb1dc79-5dc6-4b10-8ded-aaaa5a3f09e8/Screen_Shot_2022-08-20_at_3.56.22_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T174958Z&X-Amz-Expires=86400&X-Amz-Signature=0242f65036f51fa424303ca3be1622e75e7f73415f3120bbc81e146faf99522b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25203.56.22%2520AM.png%22&x-id=GetObject)
+![](https://cleanwestchester.s3.amazonaws.com/articleimgs/ozonethreat3.jpg)
+
+<p class="caption">Dichlorodifuoromethane, the most common CFC molecule</p>
 
 Scientists began to publish their findings that ozone levels were dropping dangerously fast during the mid-1980s, which alerted the world to an environmental crisis. In 1985, several meteorologists and other scientists published the first paper that detailed seasonal depletions in ozone over the Antarctic. Soon after, NASA began compiling data from satellites that reinforced these claims. In the late ‘80s, the scientific community made the connection that CFCs were the driving force behind ozone depletion, and international demand for regulation of ozone-harming chemicals soon followed.
 
@@ -37,7 +42,10 @@ In the coming years, many more countries would ratify the Protocol as well, and 
 
 Not only was the scale of the Montreal Protocol so impressive, the efficiency and speed surrounding its ratification were astounding as well. The ozone hole had only been definitively discovered two years prior to the Protocol in 1985. Moreover, in 1990, the Protocol was enhanced such that the usage of CFCs was completely banned in all industrialized nations by 2000, and in all developed nations by 2010.
 
-![Screen Shot 2022-08-20 at 3.57.21 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f406f596-8b3b-4305-8cfe-854641a9f7d7/Screen_Shot_2022-08-20_at_3.57.21_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T175008Z&X-Amz-Expires=86400&X-Amz-Signature=35affb200f56c9a822a0c5ef990a43fc84b381a29dc095ce6af9df5b5cd9e7d5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25203.57.21%2520AM.png%22&x-id=GetObject)
+![](https://cleanwestchester.s3.amazonaws.com/articleimgs/ozonethreat2.jpg)
+
+<p class="credit">Photo Credit: cmosarchives.ca</p>
+<p class="caption">The Canadian delegation at the Montreal Protocol on September 16, 1987</p>
 
 Because the cutdown in chemicals such as CFCs was so effective worldwide, scientists began to see results in less than three decades. By 2014, slight increases in levels of stratospheric ozone were recorded, and in 2016, a study was released that proved the validity of ozone recovery. This study detailed a steady rise in stratospheric ozone levels and a reduction in the size of the Antarctic Ozone Hole by more than 1.5 million square miles. A total replenishment of the ozone layer was predicted within the next half century.
 
@@ -47,7 +55,10 @@ While it is unilaterally agreed upon in the scientific community that ozone depl
 
 In addition, there have been some seemingly discouraging data points recently. For instance, the Antarctic Ozone Hole in October of 2021 was the 13th largest since 1979, and the Hole appeared to increase in size since 2019.
 
-![Screen Shot 2022-08-20 at 3.58.30 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/87ed0bb8-1fae-4218-9468-ddc4445a5c94/Screen_Shot_2022-08-20_at_3.58.30_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T175016Z&X-Amz-Expires=86400&X-Amz-Signature=f6e94ee7154d72228dab4cad42a2a229280a7e63497a471285bf87c37dee021e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25203.58.30%2520AM.png%22&x-id=GetObject)
+![](https://cleanwestchester.s3.amazonaws.com/articleimgs/ozonethreat1.jpg)
+
+<p class="credit">Photo Credit: NASA Ozone Watch</p>
+<p class="caption">A comparison in the size of the Antarctic Ozone Hole between September of 2019, September of 2020, and September of 2021</p>
 
 However, these facts alone are somewhat misleading, as they do not indicate a roadblock in the ozone’s recovery, but rather are the product of an abnormally cold Antarctic winter in both 2020 and 2021, which inhibited the creation of ozone. According to Paul Newman, a climatologist and Chief Scientist in Earth Sciences at the Goddard Space Flight Center, “... without a Montreal Protocol, [the hole] would have been much larger”. Furthermore, the 2021 Hole was still much smaller than the holes that appeared in Antarctica in the late ‘90s and early 2000s.
 

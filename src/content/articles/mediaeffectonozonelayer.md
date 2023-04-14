@@ -21,9 +21,9 @@ While it would be interesting to collect data that showed whether or not news so
 
 While collecting data on article publication is quite difficult, it is far easier to gather information on consumers of media thanks to Google Trends. Using Google Trends, it was clear that Google users from the United States were most likely to search for the ozone layer when the Antarctic ozone hole opened. Every single year has a trough in July, and most of them peak in April or September.
 
-![Ozone Layer_ (United States) vs. Month.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c96a6e38-d0f5-4ee7-beae-49a970e3baa4/Ozone_Layer__%28United_States%29_vs._Month.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T152443Z&X-Amz-Expires=86400&X-Amz-Signature=f3ab9bb869f97aee5dc3bbdfea65915c002cab52b0e4730224ee86c7ead23b69&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Ozone%2520Layer_%2520%28United%2520States%29%2520vs.%2520Month.png%22&x-id=GetObject)
+![Ozone Layer_ (United States) vs. Month.png](https://cleanwestchester.s3.amazonaws.com/articleimgs/mediaimpactozone1.jpg)
 
-![Screen Shot 2022-08-20 at 4.04.48 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/35e0156b-9181-414b-b2ab-f22f3b6c5fb7/Screen_Shot_2022-08-20_at_4.04.48_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T152503Z&X-Amz-Expires=86400&X-Amz-Signature=e68afeef7dc2419646b1b1790c276f1690da83e487c75456fb14689f7754b3a6&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25204.04.48%2520AM.png%22&x-id=GetObject)
+<p class="credit">Photo Credit: Google Trends</p>
 
 The only significant outliers on the graph above are April of 2020 and March of 2022, which both had an abnormally high number of searches. However, a potential source for this high number of searches can be found when looking at the articles that were published during this timeframe. In both months, significant headlines were issued; in April of 2020 the Indian Express, CNN, CBS, NASA, Vice, the Washington Post, and several other news sources all covered the appearance of a record-breaking Arctic Ozone Hole, and in March of 2022, Business Insider, CNET, the Natural History Museum, Yale, and other sites all covered studies about potential damages that the Australian wildfires could cause to the ozone layer.
 
@@ -33,9 +33,9 @@ One example of recent misinformation regarding climate change that was spread on
 
 This is why our writers at Clean Westchester hope to supply you with the most accurate and informative articles we can.
 
-**Read about the history and science behind the ozone here:** [https://cleanwestchester.org/articles/3970e55e-4b9c-42ca-aa2d-a2050d69ade1](https://cleanwestchester.org/articles/3970e55e-4b9c-42ca-aa2d-a2050d69ade1)
+**Read about the history and science behind the ozone here:** [https://cleanwestchester.org/articles/sciencebehindozonelayer]
 
-**Read about the ozone layer’s depletion and recent recovery here:** [https://cleanwestchester.org/articles/e6b0b004-900b-4cd2-8d61-61665c260d16](https://cleanwestchester.org/articles/e6b0b004-900b-4cd2-8d61-61665c260d16)
+**Read about the ozone layer’s depletion and recent recovery here:** [https://cleanwestchester.org/articles/ozonelayerstillunderthreat]
 
 ## Sources:
 

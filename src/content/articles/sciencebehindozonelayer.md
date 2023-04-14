@@ -17,11 +17,17 @@ The ozone layer was one of the most critical developments in the history of life
 
 Around 600 million years ago, during the late Proterozoic geological era, large blue-green algae blooms caused levels of atmospheric oxygen gas (O2) to spike drastically.
 
-![Screen Shot 2022-08-20 at 3.44.41 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6e8f5bae-ed07-4cda-9e9f-f90e5263184d/Screen_Shot_2022-08-20_at_3.44.41_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T174721Z&X-Amz-Expires=86400&X-Amz-Signature=7528136311aa37e4425fde1d6a343eaa8c17672006e8c61d350db06363e67d9c&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25203.44.41%2520AM.png%22&x-id=GetObject)
+![Graph of Oxygen Content of Earth's Atmosphere](https://cleanwestchester.s3.amazonaws.com/articleimgs/sciencebehindozone3.jpg)
+
+<p class="credit">Photo Credit: Users LordToran and WolfmanSF/Wikipedia</p>
+<p class="caption">A graph of the atmospheric oxygen levels across the last billion years</p>
 
 In a process known as photodissociation, O2 molecules absorbed photons from sunlight and split into single oxygen atoms. These atoms then reacted with intact O2 molecules, forming ozone (O3). This ozone accumulated in the upper atmosphere, forming a thin protective layer that helped to facilitate the transition of aquatic life to terrestrial environments. While most organisms were initially only able to survive in deeper areas of water, where harmful UV rays could not penetrate, the formation of the ozone layer and high levels of atmospheric oxygen allowed organisms to complexify in an event known as the Cambrian Explosion.
 
-![Screen Shot 2022-08-20 at 3.45.48 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5c41b1d8-35bf-48e5-b90a-33738aac94a4/Screen_Shot_2022-08-20_at_3.45.48_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T174741Z&X-Amz-Expires=86400&X-Amz-Signature=91cabe3bfe2f9bec190ac87011687b18ce121ef8349bd02ff2ff9ebe1dacc54d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25203.45.48%2520AM.png%22&x-id=GetObject)
+![One of the Earth's first apex predators, the Anomalocaris, which appeared during the Cambrian Explosion](https://cleanwestchester.s3.amazonaws.com/articleimgs/sciencebehindozone2.jpg)
+
+<p class="credit">Photo Credit: John Sibbick/Natural History Museum</p>
+<p class="caption">One of the Earth's first apex predators, the Anomalocaris, which appeared during the Cambrian Explosion</p>
 
 These diversified organisms moved into shallower areas of water and were eventually able to move to and live on land once the ozone became thick enough. A wide array of evolutionary opportunities opened up to many organisms, and life progressed at ever-increasing rates, in large part due to the protection offered by the ozone layer.
 
@@ -35,7 +41,10 @@ Because the stratospheric ozone plays such an important role in blocking harmful
 
 Like all molecules, ozone has an absorption spectrum. Ozone is most effective at absorbing radiation with a wavelength of 250 nm, and it becomes less effective as the waves grow in size. 250 nm waves are at the shorter end of the UV spectrum, meaning that they are the type of UV wave with the most energy and potential to harm life on Earth. These are referred to as UVC waves, and are, for the most part, entirely absorbed by the ozone layer. UVB waves, which have wavelengths between 280 and 315 nm, are mostly absorbed by the ozone, but some still penetrate the atmosphere, and only half of UVA waves, with wavelengths between 315 and 400 nm, are blocked by the ozone. These penetrating UVB and UVA waves are the reason that using sunscreen and wearing sunglasses is necessary to prevent skin and eye damage.
 
-![Screen Shot 2022-08-20 at 3.47.40 AM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3d89bb89-a7db-4c37-bd2f-d95cf0fc1dcd/Screen_Shot_2022-08-20_at_3.47.40_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T174755Z&X-Amz-Expires=86400&X-Amz-Signature=5276e046d1e0ee6ab5ecb1768aafb6a6b3448d29984e1a198be966b5006101bf&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-20%2520at%25203.47.40%2520AM.png%22&x-id=GetObject)
+![The spectrum of UV light](https://cleanwestchester.s3.amazonaws.com/articleimgs/sciencebehindozone1.jpg)
+
+<p class="credit">Photo Credit: UVFAB</p>
+<p class="caption">The spectrum of UV light</p>
 
 When ozone absorbs higher energy, shortwave radiation, it then re-emits this radiation at longer wavelengths in all directions. As a result, lethal levels of radiation are prevented from entering the earth’s atmosphere and harming life forms. Specifically to humans, UV radiation is detrimental not only because it can cause skin cancer, but also because it can destroy the protein folate in the bloodstream, which leads to birth defects and a higher infant mortality rate. This is why people who live in lower latitudes, and therefore experience sunlight at more direct angles of insulation, have evolved darker skin. The eumelanin pigment in dark skin blocks out 99.9% of UV rays, which subsequently maintains intact folate levels. Evidently, the ozone layer plays an indispensable role in the wellbeing of humankind.
 
@@ -69,4 +78,4 @@ When ozone absorbs higher energy, shortwave radiation, it then re-emits this rad
 
 [https://ozonewatch.gsfc.nasa.gov/facts/SH.html](https://ozonewatch.gsfc.nasa.gov/facts/SH.html)
 
-[https://globalnews.ca/news/8970778/ozone-layer-hole-tropics/](https://globalnews.ca/news/8970778/ozone-layer-hole-tropics/)essed 12 Mar. 2022.
+[https://globalnews.ca/news/8970778/ozone-layer-hole-tropics/](https://globalnews.ca/news/8970778/ozone-layer-hole-tropics/) Accessed 12 Mar. 2022.
