@@ -16,6 +16,8 @@ Stretching 23 miles from its source at the Kensico Reservoir to its mouth in New
 
 Due to contaminated runoff containing harmful chemicals and litter, the Bronx River has faced a significant amount of pollution in the past 150 years. This issue first came into the attention of the public and the government towards the end of the 19th century, when the river, “black with filth” and a “dumping grounds for all sorts of refuse”, became a threat to local wildlife and public health.
 
+One significant source of the river’s pollution was a sewage disposal plant in White Plains near the Scarsdale border, as its sewage frequently overflowed into the river and prompted complaints of a terrible stench from many Scarsdale residents. In 1904, Frederick Van Wyck of the Scarsdale Town Club realized that the river had been unnaturally straightened in the 19th century to increase waterpower, and this meant the sewage disposal facility was actually built on Scarsdale’s land. After threatening to have the plant closed, Van Wyck convinced White Plains to back both the construction of a new, less faulty sewer system and the Bronx River Parkway Plan.
+
 After requests from the New York Zoological Society, in April of 1905, a commission was appointed by the New York Legislature to solve the problem of pollution in the river, and in 1907 the legislature passed the Bronx River Parkway Plan. The bill established a reservation on both sides of the river to stop pollution and laid out plans for a parkway to be built parallel to the river, with a trunk sewer running under the parkway. Construction began in 1913 and the parkway plan was a resounding success. According to the Bronxville Review in 1920, “pollution [had] been entirely eliminated from the river, so that it [was] used by thousands of bathers”.
 
 ![Old photo of the Bronx River](https://cleanwestchester.s3.amazonaws.com/articleimgs/bronxriverpolution4.jpg)
@@ -85,3 +87,5 @@ https://raleighnc.gov/stormwater/6-ways-prevent-water-pollution
 https://www.simsbury-ct.gov/water-pollution-control/pages/ten-things-you-can-do-to-reduce-water-pollution
 
 https://nowthisnews.com/news/bronx-river-alliance-common-good
+
+https://www.scarsdalehistoricalsociety.org/bronx-river
