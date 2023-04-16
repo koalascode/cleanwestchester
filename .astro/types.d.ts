@@ -226,6 +226,13 @@ declare module 'astro:content' {
   collection: "cleanups",
   data: InferEntrySchema<"cleanups">
 },
+"cleanup9.md": {
+  id: "cleanup9.md",
+  slug: "cleanup9",
+  body: string,
+  collection: "cleanups",
+  data: InferEntrySchema<"cleanups">
+},
 },
 "members": {
 "aaronanidjar.md": {
