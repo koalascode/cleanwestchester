@@ -5,7 +5,7 @@ import styles from '../styles/IndexPage.module.css'
 
 const recentCleanUps = await Astro.glob('../content/cleanups/*.md');
 
-const cleanUpsArr = recentCleanUps.splice(recentCleanUps.length - 2).reverse()
+const cleanUpsArr = recentCleanUps.sort((a,b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)).splice(recentCleanUps.length - 2).reverse()
 
 const recentArticles = await Astro.glob('../content/articles/*.md')
 

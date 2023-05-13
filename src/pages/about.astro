@@ -4,7 +4,7 @@ import styles from '../styles/About.module.css'
 
 const recentCleanUps = await Astro.glob('../content/cleanups/*.md');
 
-const arr = recentCleanUps.splice(recentCleanUps.length - 3).reverse()
+const arr = recentCleanUps.sort((a,b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)).splice(recentCleanUps.length - 3).reverse()
 ---
 
 
