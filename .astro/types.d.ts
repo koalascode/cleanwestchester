@@ -168,6 +168,13 @@ declare module 'astro:content' {
   collection: "articles",
   data: InferEntrySchema<"articles">
 },
+"westchesterwastedisposal.md": {
+  id: "westchesterwastedisposal.md",
+  slug: "westchesterelectricvehicles",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
 },
 "cleanups": {
 "cleanup1.md": {
