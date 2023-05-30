@@ -1,8 +1,8 @@
 ---
 
 participants: ["Aaron Anidjar", "Chloe Ji", "Jayden Tang", "Kay Fitzgerald"]
-name: Bi-Weekly 8 - Weinberg Nature Center & The Hutch
-date: 05-06-2023
+name: Bi-Weekly 8 - The Bronx River 
+date: 05-07-2023
 icon: 🦦
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-10/cleanup10insta-7.jpg
 link: cleanup10
