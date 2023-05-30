@@ -170,7 +170,7 @@ declare module 'astro:content' {
 },
 "westchesterwastedisposal.md": {
   id: "westchesterwastedisposal.md",
-  slug: "westchesterelectricvehicles",
+  slug: "westchesterwastedisposal",
   body: string,
   collection: "articles",
   data: InferEntrySchema<"articles">

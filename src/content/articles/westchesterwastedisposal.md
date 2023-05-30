@@ -5,7 +5,7 @@ title: Westchester’s Waste Disposal
 date: 05-26-23
 coverimg: https://cleanwestchester.s3.amazonaws.com/articleimgs/westchesterwaste-1.jpg
 description: Westchester's waste disposal explained.
-slug: westchesterelectricvehicles
+slug: westchesterwastedisposal
 
 ---
 <p class="credit">Photo Credit: Lohud</p>
