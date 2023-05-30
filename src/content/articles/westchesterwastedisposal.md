@@ -4,7 +4,7 @@ authors: ["Raza Malik"]
 title: Westchester’s Waste Disposal
 date: 05-26-23
 coverimg: https://cleanwestchester.s3.amazonaws.com/articleimgs/westchesterwaste-1.jpg
-description: 
+description: Westchester's waste disposal explained.
 slug: westchesterelectricvehicles
 
 ---
