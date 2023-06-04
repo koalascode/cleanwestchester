@@ -5,7 +5,7 @@ name: Bi-Weekly 9 - Weinberg Nature Center
 date: 05-21-2023
 icon: 🦦
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-12/cleanup11insta-3.jpg
-link: cleanup10
+link: cleanup11
 hours: 1
 
 ---
