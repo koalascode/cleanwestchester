@@ -119,6 +119,13 @@ declare module 'astro:content' {
   collection: "articles",
   data: InferEntrySchema<"articles">
 },
+"hurricanidamitigation.md": {
+  id: "hurricanidamitigation.md",
+  slug: "hurricanidamitigation",
+  body: string,
+  collection: "articles",
+  data: InferEntrySchema<"articles">
+},
 "mediaeffectonozonelayer.md": {
   id: "mediaeffectonozonelayer.md",
   slug: "mediaimpactonozonelayer",
