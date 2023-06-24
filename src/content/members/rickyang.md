@@ -4,9 +4,9 @@ name: Rick Yang
 pfp: https://cleanwestchester.s3.amazonaws.com/rickyangpfp.jpg
 email: anidjaraaron@gmail.com
 description: none
-role: Co-Founder, Chief Editor
+role: Chief Editor, Co Founder
 slug: rickyang
-position: 2
+position: 6
 
 
 
