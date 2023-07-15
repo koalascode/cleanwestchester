@@ -33,9 +33,9 @@ One example of recent misinformation regarding climate change that was spread on
 
 This is why our writers at Clean Westchester hope to supply you with the most accurate and informative articles we can.
 
-**Read about the history and science behind the ozone here:** [https://cleanwestchester.org/articles/sciencebehindozonelayer]
+**Read about the history and science behind the ozone here:** [https://cleanwestchester.org/articles/sciencebehindozonelayer](https://cleanwestchester.org/articles/sciencebehindozonelayer)
 
-**Read about the ozone layer’s depletion and recent recovery here:** [https://cleanwestchester.org/articles/ozonelayerstillunderthreat]
+**Read about the ozone layer’s depletion and recent recovery here:** [https://cleanwestchester.org/articles/ozonelayerstillunderthreat](https://cleanwestchester.org/articles/ozonelayerstillunderthreat)
 
 ## Sources:
 

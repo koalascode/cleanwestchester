@@ -48,7 +48,7 @@ Like all molecules, ozone has an absorption spectrum. Ozone is most effective at
 
 When ozone absorbs higher energy, shortwave radiation, it then re-emits this radiation at longer wavelengths in all directions. As a result, lethal levels of radiation are prevented from entering the earth’s atmosphere and harming life forms. Specifically to humans, UV radiation is detrimental not only because it can cause skin cancer, but also because it can destroy the protein folate in the bloodstream, which leads to birth defects and a higher infant mortality rate. This is why people who live in lower latitudes, and therefore experience sunlight at more direct angles of insulation, have evolved darker skin. The eumelanin pigment in dark skin blocks out 99.9% of UV rays, which subsequently maintains intact folate levels. Evidently, the ozone layer plays an indispensable role in the wellbeing of humankind.
 
-**Read about the ozone layer’s depletion and recent recovery here:** [https://cleanwestchester.org/articles/e6b0b004-900b-4cd2-8d61-61665c260d16](https://www.notion.so/The-Science-behind-the-Ozone-Layer-3970e55e4b9c42caaa2da2050d69ade1)
+**Read about the ozone layer’s depletion and recent recovery here:** [https://www.cleanwestchester.org/articles/ozonelayerstillunderthreat](https://www.cleanwestchester.org/articles/ozonelayerstillunderthreat)
 
 ### Sources:
 

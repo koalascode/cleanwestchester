@@ -70,9 +70,9 @@ Despite all the controversy surrounding the study, scientists who are well-verse
 
 The news and social media undoubtedly play major roles in shaping public opinions in the modern world. However, being vigilant of the media that we consume can give us a better understanding of the topics that we read about and can prevent us from being misled.
 
-**Read more about how media affects popular perception of the ozone here:** [https://cleanwestchester.org/articles/efeccfae-a912-4ebd-8dee-63337d1939f7](https://www.notion.so/Is-the-Ozone-Layer-Still-under-Threat-e6b0b004900b4cd28d6161665c260d16)
+**Read more about how media affects popular perception of the ozone here:** [https://www.cleanwestchester.org/articles/mediaimpactonozonelayer](https://www.cleanwestchester.org/articles/mediaimpactonozonelayer)
 
-**Read about the history and science behind the ozone here:** [https://cleanwestchester.org/articles/3970e55e-4b9c-42ca-aa2d-a2050d69ade1](https://www.notion.so/Is-the-Ozone-Layer-Still-under-Threat-e6b0b004900b4cd28d6161665c260d16)
+**Read about the history and science behind the ozone here:** [https://www.cleanwestchester.org/articles/sciencebehindozonelayer](https://www.cleanwestchester.org/articles/sciencebehindozonelayer)
 
 ### Sources:
 
