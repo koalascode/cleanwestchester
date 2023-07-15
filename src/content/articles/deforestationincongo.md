@@ -9,7 +9,8 @@ slug: deforestationincongo
 
 ---
 
-![Screen Shot 2022-08-18 at 8.55.36 PM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c3e91b1b-6fab-42f8-b05e-2ad11468479b/Screen_Shot_2022-08-18_at_8.55.36_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230204T170307Z&X-Amz-Expires=86400&X-Amz-Signature=08b23e2135b30347a0257f67be8402781dbd71ff00359937a335e1d5c63cd13f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202022-08-18%2520at%25208.55.36%2520PM.png%22&x-id=GetObject)
+<p class="credit">Photo Credit: Daniel Beltrá/Prince's Rainforest Project</p>
+<p class="caption">Deforestation seen the Lukenie River in the Democratic Republic of the Congo</p>
 
 In this turbulent period of history, global crisis after global crisis have taken the spotlight and dominated our news cycle. With the pandemic and ongoing Russian invasion of Ukraine, it is certainly difficult to focus on an issue that threatens our very existence: climate change and deforestation.
 
@@ -19,7 +20,7 @@ Since the 1990s, over 1.03 billion acres of land have been deforested for a vari
 
 Home to the second largest river in the world by volume and the second largest rainforest in the world, the Congo Basin is teeming with ecological variety. The Basin stretches across nearly 440 million acres of land in nine countries, and fosters species such as the Lowland Gorilla, the Okapi, the Bonobo, the African Bush Elephant, and many others. Over a thousand species of birds live in the Basin, along with 1400 species of fish and hundreds of species of other animals. But one of the key components of the vast ecosystem is under attack. The Congo Rainforest, known for its high-stretching trees, is a major victim of deforestation.
 
-![](https://lh3.googleusercontent.com/oc9S03VPF4DR4XE0R_i5NgnDm6PhSe8IO9s1kmCG0-8tw_3bjpl4pcyCqOU5QMXrRs4OaqP4mOwbSSX7WU5CL4ij-1A8VerCSOnxxUzUY4fV4bRwQC2qlLuTGv7PAUUcQ6spbH_juGOUW3YTruUNbg)
+![](https://cleanwestchester.s3.amazonaws.com/articleimgs/congodeforestation-3.jpg)
 
 The Democratic Republic of Congo (DRC) has seen a depressing amount of violent conflict in the past three decades,  forcing many people to rely on natural resources in order to support themselves. This has had a devastating impact on the rainforest and its wildlife. The clearing of land for agricultural purposes is also a major cause of the deforestation that the Congo has seen over the years. Specifically, the industries for palm oil, sugar, and rubber are some of the chief perpetrators of the land clearing in the Congolese Rainforest. Industrial logging is a major problem as well, and the consequences of clearcutting have been extensive. The construction of roads after logging has led to an increase in poaching, and the African Bush Elephant has been hit particularly hard. Mining and the growth of cities have played a role in the Congo’s deforestation too.
 
@@ -27,7 +28,7 @@ The Democratic Republic of Congo (DRC) has seen a depressing amount of violent c
 
 The impacts of deforestation in the Congo are wide-reaching, and affect not only Central Africa, but the rest of the world as well. For instance, one popular method of clearing land in the Congo is the use of fires, and Greenpeace, an international organization that focuses on major environmental issues, estimates that the process of clearing forested land will release up to 34.4 billion tons of carbon dioxide between now and 2050. Unfortunately, this is not the only way that deforestation in the Congo has accelerated climate change, as the massive reserves of carbon that rainforests hold are decreased each time a tree is cut down. Trees take in carbon dioxide during their respiratory process, and are a key player in the mitigation of climate change, so when significant portions of forests are cleared, the amount of carbon dioxide in the atmosphere becomes less controlled.
 
-![image of erosion in the congo](https://lh4.googleusercontent.com/okoe7JFjK5I-K6CdNgyMfVDKtksecOsBKMAmzTypxiCGEj1mSLiM5k0U5ML8R4wq9E8A1iYOQaIq29DMLBIRc-8trLha_6Ahp3S6OAI4yljIoGoLd7Z6xvFPsEQyI4-uya-7UFWYjQ7otceQpzrq3g)
+![image of erosion in the congo](https://cleanwestchester.s3.amazonaws.com/articleimgs/congodeforestation-1.jpg)
 
 Of course, deforestation results in local climate issues as well, and one of the heaviest-hitting ramifications is the significant alterations in the amount of rainfall that certain areas of Central Africa receive. This entails far higher levels of rainfall during the wet season and an increase in the harshness of the dry season, which can cause severe weather events and disrupt natural cycles. The southern portion of the Congo Basin has also seen a significant amount of soil erosion as a result of deforestation and a subsequent lack of tree cover, putting the environment at risk of landslides and the buildup of sediment in sources of water.
 
