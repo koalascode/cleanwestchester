@@ -73,7 +73,6 @@ console.log(hours)
     {currMemberCleanUps.length != 0 ?
     <div>
       <h1 class={styles.secttitle}>Clean-ups:</h1>
-      <h3 class={styles.hours}>Total Hours: {Math.trunc(hours) + " hours " + (hours - Math.trunc(hours) != 0 ? ((hours - Math.trunc(hours)) * 60) + " minutes" : "")}</h3>
       <div class={styles.cleanupscontainer}>
         {currMemberCleanUps.sort((b,a) => new Date(a.data.date) - new Date(b.data.date)).map(x => 
           <a class={styles.nolinknocol} href={`/cleanups/${x.slug}`}>
