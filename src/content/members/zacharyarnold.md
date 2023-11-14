@@ -6,6 +6,6 @@ email: anidjaraaron@gmail.com
 description: Recruit 🫡
 role: Member
 slug: zacharyarnold
-position: 4
+position: 6
 
 ---

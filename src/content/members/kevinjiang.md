@@ -6,7 +6,7 @@ email: anidjaraaron@gmail.com
 description: chipotle enthusiast
 role: Officer
 slug: kevinjiang
-position: 6
+position: 5
 
 
 ---
