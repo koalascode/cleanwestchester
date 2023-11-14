@@ -6,7 +6,7 @@ email: anidjaraaron@gmail.com
 description: none
 role: Chief Editor, Co Founder
 slug: rickyang
-position: 6
+position: 3
 
 
 
