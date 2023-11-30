@@ -1,7 +1,7 @@
 ---
 
 participants: ["Aaron Anidjar", "Kevin Jiang", "Zachary Arnold", "Jayden Tang", "Aiden Moy", "Sophia Wu", "Kelly Deng", "Sonya Chen", "Chloe Ji"]
-name: Bi-Weekly 11 - Bronx River
+name: Bi-Weekly 12 - Bronx River
 date: 09-17-2023
 icon: 🌊
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-16/cleanup15-10.jpg

@@ -1,7 +1,7 @@
 ---
 
 participants: ["Aaron Anidjar", "Rick Yang", "Chloe Ji", "Kevin Daniel", "Raza Malik", "Beck Landless", "Yasmina Levitsky", "Tara Pillai"]
-name: Bi-Weekly 10 - Weinberg Nature Center
+name: Bi-Weekly 11 - Weinberg Nature Center
 date: 09-03-2023
 icon: 🌴
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-15/cleanup14-7.jpg

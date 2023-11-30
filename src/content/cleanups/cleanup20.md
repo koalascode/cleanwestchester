@@ -1,7 +1,7 @@
 ---
 
 participants: ["Aaron Anidjar", "Kevin Daniel", "Raza Malik", "Chloe Ji", "RIck Yang", "Kelly Deng", "Sonya Chen", "Zachary Arnold", "Kevin Jiang", "Ben Robins", "Aiden Moy", "Maria Papazoglu"]
-name: Bi-Weekly 16 - Weinberg Nature Center
+name: Bi-Weekly 17 - Weinberg Nature Center
 date: 11-26-2023
 icon: 🌴
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-21/cleanup20-6.jpg

@@ -1,7 +1,7 @@
 ---
 
 participants: ["Aaron Anidjar", "Kevin Daniel", "Raza Malik", "Jayden Tang"]
-name: Bi-Weekly 13 - Bronx River
+name: Bi-Weekly 14 - Bronx River
 date: 10-23-2023
 icon: 🌴
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-18/cleanup17-9.jpg

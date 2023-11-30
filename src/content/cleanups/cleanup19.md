@@ -1,7 +1,7 @@
 ---
 
 participants: ["Aaron Anidjar", "Kevin Daniel", "Raza Malik", "Chloe Ji", "Jayden Tang", "Kelly Deng", "Sonya Chen"]
-name: Bi-Weekly 15 - Sheldrake Lake
+name: Bi-Weekly 16 - Sheldrake Lake
 date: 11-12-2023
 icon: 🐟
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-20/cleanup19-10.jpg

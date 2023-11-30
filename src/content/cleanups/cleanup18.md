@@ -1,7 +1,7 @@
 ---
 
 participants: ["Aaron Anidjar", "Kevin Daniel", "Rick Yang", "Chloe Ji", "Jayden Tang", "Bryan Chung"]
-name: Bi-Weekly 14 - Bronx River
+name: Bi-Weekly 15 - Bronx River
 date: 11-07-2023
 icon: 🌴
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-19/cleanup18-10.jpg

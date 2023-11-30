@@ -1,7 +1,7 @@
 ---
 
 participants: ["Aaron Anidjar", "Kevin Daniel", "Rick Yang", "Bryan Chung", "Jayden Tang", "Chloe Ji", "Kelly Deng", "Tara Pillai", "Trisha Viswanathan", "Sonya Chen",]
-name: Bi-Weekly 12 - Weinberg Nature Center
+name: Bi-Weekly 13 - Weinberg Nature Center
 date: 10-1-2023
 icon: 🌴
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-17/cleanup16-7.jpg
