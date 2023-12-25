@@ -1,6 +1,6 @@
 ---
 
-participants: ["Aaron Anidjar", "Kevin Daniel", "Raza Malik", "Chloe Ji", "RIck Yang", "Kelly Deng", "Sonya Chen", "Zachary Arnold", "Kevin Jiang", "Ben Robins", "Aiden Moy", "Maria Papazoglu"]
+participants: ["Aaron Anidjar", "Kevin Daniel", "Raza Malik", "Chloe Ji", "Rick Yang", "Kelly Deng", "Sonya Chen", "Zachary Arnold", "Kevin Jiang", "Ben Robins", "Aiden Moy", "Maria Papazoglu"]
 name: Bi-Weekly 17 - Weinberg Nature Center
 date: 11-26-2023
 icon: 🌴
