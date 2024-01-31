@@ -6,17 +6,20 @@ import { getCollection } from 'astro:content';
 const cleanUps = await getCollection('cleanups');
 
 cleanUps.sort((b,a) => new Date(a.data.date) - new Date(b.data.date))
+
+//  <p>{x.data.date}</p>
 ---
 
 <Layout title="Clean Ups">
 
+    <center><h3>Some recent clean-ups have been delayed due to weather conditions, please check out Instagram for updates</h3></center>
     <div class={styles.cleanupscontainer}>
         {cleanUps.map(x =>
             <div class={styles.indivcleanup}>
                 <a class="nolink" href={`/cleanups/${x.slug}`}>
                 <img class={styles.cleanupimg} src={x.data.coverimg}/>
                 <div class={styles.textctnr}>
-                    <p>{x.data.date}</p>
+                   
                     <h1>{x.data.name}</h1>
                 </div>
                 </a>
