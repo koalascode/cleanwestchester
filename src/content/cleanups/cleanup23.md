@@ -5,7 +5,7 @@ name: Bi-Weekly 20 - Bronx River
 date: 2-4-2024
 icon: 🐟
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-24/cleanup23-7.jpg
-link: cleanup22
+link: cleanup23
 hours: 1
 
 ---
