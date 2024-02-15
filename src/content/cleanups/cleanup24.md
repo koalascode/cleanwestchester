@@ -1,6 +1,6 @@
 ---
 
-participants: ["Aaron Anidjar", "Kevin Daniel", "Chloe Ji", "Jayden Tang", "Rick Yang"]
+participants: ["Aaron Anidjar", "Kevin Daniel", "Chloe Ji", "Jayden Tang", "Rick Yang", "Bryan Chung"]
 name: Bi-Weekly 21 - Weinberg Nature Center
 date: 2-4-2024
 icon: 🌳
