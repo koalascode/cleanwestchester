@@ -2,7 +2,7 @@
 
 participants: ["Aaron Anidjar", "Kevin Daniel", "Chloe Ji", "Jayden Tang", "Rick Yang", "Bryan Chung"]
 name: Bi-Weekly 21 - Weinberg Nature Center
-date: 2-4-2024
+date: 2-11-2024
 icon: 🌳
 coverimg: https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-25/cleanup24-5.jpg
 link: cleanup24
