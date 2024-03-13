@@ -15,3 +15,7 @@ This clean up is our record lowest attendence as this biweekly cycle fell on win
 ![](https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-26/cleanup25-1.jpg)
 ![](https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-26/cleanup25-2.jpg)
 ![](https://cleanwestchester.s3.amazonaws.com/bi-weekly-clean-ups/clean-up-26/cleanup25-3.jpg)
+
+All photos from this clean up and all other events can be found on [our instagram](https://www.instagram.com/cleanwestchester/).
+
+Thank you to everyone who came to the clean up this week. Hope to see you all next week!
