@@ -205,13 +205,6 @@ declare module 'astro:content' {
 },
 },
 "cleanups": {
-"cheanup26.md": {
-  id: "cheanup26.md",
-  slug: "cheanup26",
-  body: string,
-  collection: "cleanups",
-  data: InferEntrySchema<"cleanups">
-},
 "cleanup1.md": {
   id: "cleanup1.md",
   slug: "cleanup1",
@@ -338,9 +331,23 @@ declare module 'astro:content' {
   collection: "cleanups",
   data: InferEntrySchema<"cleanups">
 },
+"cleanup26.md": {
+  id: "cleanup26.md",
+  slug: "cleanup26",
+  body: string,
+  collection: "cleanups",
+  data: InferEntrySchema<"cleanups">
+},
 "cleanup27.md": {
   id: "cleanup27.md",
   slug: "cleanup27",
+  body: string,
+  collection: "cleanups",
+  data: InferEntrySchema<"cleanups">
+},
+"cleanup28.md": {
+  id: "cleanup28.md",
+  slug: "cleanup28",
   body: string,
   collection: "cleanups",
   data: InferEntrySchema<"cleanups">
